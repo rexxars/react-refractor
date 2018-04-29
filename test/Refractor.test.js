@@ -2,7 +2,7 @@ const React = require('react')
 const ReactDOM = require('react-dom/server')
 const js = require('refractor/lang/javascript')
 const haml = require('refractor/lang/haml')
-const Refractor = require('../')
+const Refractor = require('../src/Refractor')
 
 beforeAll(() => {
   Refractor.registerLanguage(js)
