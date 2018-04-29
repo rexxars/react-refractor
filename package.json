@@ -1,0 +1,61 @@
+{
+  "name": "react-refractor",
+  "version": "0.0.1",
+  "description": "Super-thin React wrapper for refractor (Syntax highlighting using VDOM)",
+  "main": "src/Refractor.js",
+  "umd": "umd/Refractor.min.js",
+  "scripts": {
+    "build": "npm run build:umd && npm run build:prod && npm run build:demo:prod",
+    "build:umd": "webpack src/Refractor.js -o umd/Refractor.js",
+    "build:demo": "webpack --config webpack.config.demo.js",
+    "build:demo:prod": "NODE_ENV=production webpack -p --config webpack.config.demo.js",
+    "build:prod": "NODE_ENV=production webpack -p src/Refractor.js -o umd/Refractor.min.js",
+    "coverage": "jest --coverage",
+    "deploy": "gh-pages-deploy",
+    "lint": "eslint .",
+    "prepublishOnly": "npm test && npm run build",
+    "posttest": "npm run lint",
+    "test": "jest",
+    "test-travis": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rexxars/react-refractor.git"
+  },
+  "keywords": ["react", "highlight", "syntax", "refractor", "vdom"],
+  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rexxars/react-refractor/issues"
+  },
+  "gh-pages-deploy": {
+    "noprompt": true,
+    "prep": ["build"],
+    "staticpath": "demo"
+  },
+  "homepage": "https://github.com/rexxars/react-refractor#readme",
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "refractor": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-sanity": "^0.128.5",
+    "gh-pages-deploy": "^0.5.0",
+    "highlight.js": "^9.12.0",
+    "jest": "^22.4.3",
+    "prettier": "^1.12.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "test-console": "^1.1.0",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15"
+  },
+  "peerDependencies": {
+    "react": ">=15.0.0"
+  },
+  "jest": {
+    "verbose": true
+  }
+}

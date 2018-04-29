@@ -1,0 +1,14 @@
+{
+  "extends": ["sanity", "prettier"],
+  "env": {"node": true, "browser": true},
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "complexity": ["error", {"max": 15}],
+    "no-process-env": "off"
+  }
+}
