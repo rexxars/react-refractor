@@ -13,6 +13,17 @@ const config = {
       commonjs2: 'react',
       amd: 'react'
     }
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader'
+        }
+      }
+    ]
   }
 }
 

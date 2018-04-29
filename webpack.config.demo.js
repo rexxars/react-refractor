@@ -8,6 +8,17 @@ const config = {
   output: {
     path: path.join(__dirname, 'demo', 'js'),
     filename: 'demo.min.js'
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader'
+        }
+      }
+    ]
   }
 }
 

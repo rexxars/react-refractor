@@ -34,3 +34,7 @@ node_modules
 
 # Demo build assets
 demo/js/demo.min.js.map
+
+# Compiled output
+umd/*
+lib/*
