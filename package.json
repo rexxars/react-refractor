@@ -1,6 +1,6 @@
 {
   "name": "react-refractor",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Super-thin React wrapper for refractor (Syntax highlighting using VDOM)",
   "main": "src/Refractor.js",
   "umd": "umd/Refractor.min.js",
@@ -22,7 +22,13 @@
     "type": "git",
     "url": "git+https://github.com/rexxars/react-refractor.git"
   },
-  "keywords": ["react", "highlight", "syntax", "refractor", "vdom"],
+  "keywords": [
+    "react",
+    "highlight",
+    "syntax",
+    "refractor",
+    "vdom"
+  ],
   "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
   "license": "MIT",
   "bugs": {
@@ -30,7 +36,9 @@
   },
   "gh-pages-deploy": {
     "noprompt": true,
-    "prep": ["build"],
+    "prep": [
+      "build"
+    ],
     "staticpath": "demo"
   },
   "homepage": "https://github.com/rexxars/react-refractor#readme",
