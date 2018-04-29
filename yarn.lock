@@ -2516,9 +2516,9 @@ gh-got@^6.0.0:
     got "^7.0.0"
     is-plain-obj "^1.1.0"
 
-gh-pages-deploy@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/gh-pages-deploy/-/gh-pages-deploy-0.5.0.tgz#9213766812139bb565ad5c7c10739a64c97723cb"
+gh-pages-deploy@^0.4.2:
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/gh-pages-deploy/-/gh-pages-deploy-0.4.2.tgz#2aed1887f1de9bdc6917b9dc9f3e68c86ac688a6"
   dependencies:
     chalk "^1.1.1"
     gasket "^2.0.0"
