@@ -19,7 +19,8 @@ function Refractor(props) {
     }
   }
 
-  const codeProps = {className: `language-${props.language}`}
+  const langClassName = `language-${props.language}`
+  const codeProps = {className: langClassName}
 
   if (props.inline) {
     codeProps.style = {display: 'inline'}
@@ -34,7 +35,7 @@ function Refractor(props) {
   const value = ast.length === 0 ? props.value : ast.map(mapChildren.depth(0))
 
   const code = h('code', codeProps, value)
-  return props.inline ? code : h('pre', {className: props.className}, code)
+  return props.inline ? code : h('pre', {className: `${props.className} ${langClassName}`}, code)
 }
 
 Refractor.propTypes = {
