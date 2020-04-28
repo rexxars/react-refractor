@@ -1,4 +1,4 @@
-const lineNumberify = function lineNumberify(ast, lineNum = 1) {
+function lineNumberify(ast, lineNum = 1) {
   let lineNumber = lineNum
   return ast.reduce(
     (result, node) => {
@@ -14,7 +14,7 @@ const lineNumberify = function lineNumberify(ast, lineNum = 1) {
           result.nodes.push({
             type: 'text',
             value: i === lines.length - 1 ? lines[i] : `${lines[i]}\n`,
-            lineNumber: i === 0 ? lineNumber : ++lineNumber
+            lineNumber: i === 0 ? lineNumber : ++lineNumber,
           })
         }
 
@@ -64,7 +64,7 @@ const wrapLines = function wrapLines(ast, markers, options) {
       tagName: marker.component || 'div',
       properties: marker.component ? options : {className: marker.className || 'refractor-marker'},
       children: children,
-      lineNumber: line
+      lineNumber: line,
     })
 
     return nodes
@@ -77,9 +77,9 @@ const wrapLines = function wrapLines(ast, markers, options) {
   return wrapped
 }
 
-module.exports = function(ast, options) {
+module.exports = function (ast, options) {
   const markers = options.markers
-    .map(marker => {
+    .map((marker) => {
       return marker.line ? marker : {line: marker}
     })
     .sort((nodeA, nodeB) => {

@@ -12,15 +12,14 @@ function Refractor(props) {
     if (!fract.registered(props.language)) {
       // eslint-disable-next-line no-console
       console.warn(
-        `No language definitions for "${
-          props.language
-        }" seems to be registered, did you forget to call \`Refractor.registerLanguage()\`?`
+        `No language definitions for "${props.language}" seems to be registered, did you forget to call \`Refractor.registerLanguage()\`?`
       )
     }
   }
 
   const langClassName = `language-${props.language}`
   const codeProps = {className: langClassName}
+  const preProps = {className: [props.className, langClassName].filter(Boolean).join(' ')}
 
   if (props.inline) {
     codeProps.style = {display: 'inline'}
@@ -35,7 +34,7 @@ function Refractor(props) {
   const value = ast.length === 0 ? props.value : ast.map(mapChildren.depth(0))
 
   const code = h('code', codeProps, value)
-  return props.inline ? code : h('pre', {className: `${props.className} ${langClassName}`}, code)
+  return props.inline ? code : h('pre', preProps, code)
 }
 
 Refractor.propTypes = {
@@ -50,19 +49,19 @@ Refractor.propTypes = {
       PropTypes.shape({
         line: PropTypes.number.isRequired,
         className: PropTypes.string,
-        component: PropTypes.oneOfType([PropTypes.node, PropTypes.func])
-      })
+        component: PropTypes.oneOfType([PropTypes.node, PropTypes.func]),
+      }),
     ])
-  )
+  ),
 }
 
 Refractor.defaultProps = {
   astPlugins: [],
   className: 'refractor',
-  inline: false
+  inline: false,
 }
 
-Refractor.registerLanguage = lang => fract.register(lang)
-Refractor.hasLanguage = lang => fract.registered(lang)
+Refractor.registerLanguage = (lang) => fract.register(lang)
+Refractor.hasLanguage = (lang) => fract.registered(lang)
 
 module.exports = Refractor

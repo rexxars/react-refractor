@@ -2,8 +2,8 @@
 
 exports[`should be able to highlight specific lines with markers 1`] = `
 "<pre class=\\"refractor language-javascript\\"><code class=\\"language-javascript\\"><span class=\\"token punctuation\\">{</span>
-<div class=\\"refractor-marker\\">  title<span class=\\"token punctuation\\">:</span> <span class=\\"token string\\">&quot;Sanity&quot;</span><span class=\\"token punctuation\\">,</span>
-</div><div class=\\"url\\">  url<span class=\\"token punctuation\\">:</span> <span class=\\"token string\\">&quot;https://sanity.io/&quot;</span>
+<div class=\\"refractor-marker\\">  title<span class=\\"token operator\\">:</span> <span class=\\"token string\\">&quot;Sanity&quot;</span><span class=\\"token punctuation\\">,</span>
+</div><div class=\\"url\\">  url<span class=\\"token operator\\">:</span> <span class=\\"token string\\">&quot;https://sanity.io/&quot;</span>
 </div><span class=\\"token punctuation\\">}</span>
 </code></pre>"
 `;

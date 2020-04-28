@@ -4,27 +4,30 @@ const config = {
   mode: isProd ? 'production' : 'development',
   output: {
     library: 'reactRefractor',
-    libraryTarget: 'umd'
+    libraryTarget: 'umd',
   },
   externals: {
     react: {
       root: 'React',
       commonjs: 'react',
       commonjs2: 'react',
-      amd: 'react'
-    }
+      amd: 'react',
+    },
   },
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.m?js$/,
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader'
-        }
-      }
-    ]
-  }
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env'],
+          },
+        },
+      },
+    ],
+  },
 }
 
 module.exports = config
