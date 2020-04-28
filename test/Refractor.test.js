@@ -11,13 +11,13 @@ beforeAll(() => {
 
 test('should render empty if no code is given', () => {
   expect(render({value: '', language: 'js'}, {withWrapper: true})).toBe(
-    '<pre class="refractor"><code class="language-js"></code></pre>'
+    '<pre class="refractor language-js"><code class="language-js"></code></pre>'
   )
 })
 
 test('should render simple JS snippet correct', () => {
   expect(render({value: '"use strict";', language: 'js'}, {withWrapper: true})).toBe(
-    '<pre class="refractor">' +
+    '<pre class="refractor language-js">' +
       '<code class="language-js">' +
       '<span class="token string">&quot;use strict&quot;</span>' +
       '<span class="token punctuation">;</span>' +
@@ -28,7 +28,7 @@ test('should render simple JS snippet correct', () => {
 
 test('should use the specified language', () => {
   expect(render({value: '', language: 'haml'}, {withWrapper: true})).toBe(
-    '<pre class="refractor"><code class="language-haml"></code></pre>'
+    '<pre class="refractor language-haml"><code class="language-haml"></code></pre>'
   )
 })
 
