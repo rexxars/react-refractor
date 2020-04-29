@@ -1,6 +1,6 @@
 const React = require('react')
 const ReactDOM = require('react-dom')
-const Refractor = require('../../')
+const Refractor = require('../../src/Refractor')
 const h = React.createElement
 
 Refractor.registerLanguage(require('refractor/lang/javascript'))
@@ -11,7 +11,7 @@ Refractor.registerLanguage(require('refractor/lang/jsx'))
 
 const languages = ['jsx', 'javascript', 'markup', 'css', 'clike']
 const defaultValue = getDefaultValue()
-const BitwiseMarker = props =>
+const BitwiseMarker = (props) =>
   h('div', {className: 'bitwise', title: 'Eyyh, bitwise operator!'}, props.children)
 
 class ReactRefractorDemo extends React.Component {
@@ -25,7 +25,7 @@ class ReactRefractorDemo extends React.Component {
 
   handleSetValue(evt) {
     this.setState({
-      value: evt.target.value
+      value: evt.target.value,
     })
   }
 
@@ -48,12 +48,12 @@ class ReactRefractorDemo extends React.Component {
           h(
             'select',
             {onChange: this.handleChangeLanguage},
-            languages.map(lang => h('option', {key: lang}, lang))
+            languages.map((lang) => h('option', {key: lang}, lang))
           )
         ),
         h('textarea', {
           defaultValue: defaultValue,
-          onChange: this.handleSetValue
+          onChange: this.handleSetValue,
         })
       ),
 
@@ -71,7 +71,7 @@ class ReactRefractorDemo extends React.Component {
             markers:
               this.state.value === defaultValue
                 ? [{line: 10, component: BitwiseMarker}, 11, 12]
-                : []
+                : [],
           })
         )
       )
@@ -104,6 +104,6 @@ function getDefaultValue() {
     '}\n',
 
     'console.log(longMoo(5))',
-    '// "MoO0ooO0ooO0ooO0ooO0o"'
+    '// "MoO0ooO0ooO0ooO0ooO0o"',
   ].join('\n')
 }
