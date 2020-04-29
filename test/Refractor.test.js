@@ -48,6 +48,14 @@ test('should be able to highlight specific lines with markers', () => {
   expect(render({value: code, markers, language}, {withWrapper: true})).toMatchSnapshot()
 })
 
+test('should be able to highlight specific, out-of-order lines with markers', () => {
+  const language = 'javascript'
+  const code =
+    "import client from 'part:@sanity/base/client'\n\nexport default {\n  name: 'post',\n  type: 'document',\n  title: 'Blog post',\n  initialValue: async () => ({\n    publishedAt: new Date().toISOString(),\n    authors: await client.fetch(`\n      *[_type == \"author\" && \"marketing\" in responsbilities]{\n        \"_type\": \"authorReference\",\n        \"author\": {\n          \"_type\": \"reference\",\n          \"_ref\": _id\n        }\n      }\n    `)\n  }),\n  fields: [\n    {\n      name: 'title',\n      type: 'string',\n      title: 'Title'\n    },\n    {\n      name: 'slug',\n      type: 'slug',\n      title: 'Slug'\n    },\n    {\n      name: 'publishedAt',\n      type: 'datetime',\n      title: 'Published at'\n    },\n    {\n      name: 'authors',\n      type: 'array',\n      title: 'Authors',\n      of: [\n        {\n          type: 'authorReference'\n        }  \n      ]\n    }\n    // ...\n  ]\n}"
+  const markers = [9, 11, 10, 12, 13, 14, 15, 16, 17, 18, 1]
+  expect(render({value: code, markers, language}, {withWrapper: true})).toMatchSnapshot()
+})
+
 function render(props, options) {
   const opts = options || {}
   const html = opts.reactAttrs
