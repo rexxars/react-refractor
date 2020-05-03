@@ -144,10 +144,11 @@ function unwrapLine(markerLine, nodes) {
 }
 
 function wrapBatch(children, marker, options) {
+  const className = marker.className || 'refractor-marker'
   return {
     type: 'element',
     tagName: marker.component || 'div',
-    properties: marker.component ? options : {className: marker.className || 'refractor-marker'},
+    properties: marker.component ? Object.assign({}, options, {className}) : {className},
     children,
     lineStart: marker.line,
     lineEnd: children[children.length - 1].lineEnd,
