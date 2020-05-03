@@ -62,7 +62,7 @@ function unwrapLine(markerLine, nodes) {
 
     ancestors.forEach((ancestor) => {
       if (!map.has(ancestor)) {
-        map.set(ancestor, {...ancestor, children: []})
+        map.set(ancestor, Object.assign({}, ancestor, {children: []}))
 
         if (ancestor !== tree) {
           cloned.push(ancestor)
@@ -129,12 +129,12 @@ function unwrapLine(markerLine, nodes) {
     return rootNode.children
   }
 
-  const merged = [
-    ...getChildren(headMap),
-    ...getChildren(lineMap),
-    ...getChildren(tailMap),
-    ...(filtered ? filtered.children : []),
-  ]
+  const merged = [].concat(
+    getChildren(headMap),
+    getChildren(lineMap),
+    getChildren(tailMap),
+    filtered ? filtered.children : []
+  )
 
   headMap.clear()
   lineMap.clear()
@@ -195,12 +195,13 @@ function wrapLines(treeNodes, markers, options) {
   return wrapped
 }
 
-module.exports = function (ast, options) {
+function addMarkers(ast, options) {
   const markers = options.markers
     .map((marker) => (marker.line ? marker : {line: marker}))
     .sort((nodeA, nodeB) => nodeA.line - nodeB.line)
 
   const numbered = lineNumberify(ast).nodes
-  const wrapped = wrapLines(numbered, markers, options)
-  return wrapped
+  return wrapLines(numbered, markers, options)
 }
+
+module.exports = addMarkers
