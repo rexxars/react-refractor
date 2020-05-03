@@ -4,9 +4,9 @@ Syntax highlighter for React, utilizing VDOM for efficient updates
 
 [![npm version](http://img.shields.io/npm/v/react-refractor.svg?style=flat-square)](http://browsenpm.org/package/react-refractor)[![Build Status](http://img.shields.io/travis/rexxars/react-refractor/master.svg?style=flat-square)](https://travis-ci.org/rexxars/react-refractor)
 
-* Thin wrapper on top of [refractor](https://github.com/wooorm/refractor) (Syntax highlighting using VDOM)
-* refractor uses [Prism](https://github.com/PrismJS/prism) under the hood, thus supports all the same syntaxes
-* About ~31kB (11.5kB gziped) when using a single language syntax. Languages tend to add a bit of weight, see [unpkg](https://unpkg.com/refractor@2.3.0/lang/) for some pointers on how much.
+- Thin wrapper on top of [refractor](https://github.com/wooorm/refractor) (Syntax highlighting using VDOM)
+- refractor uses [Prism](https://github.com/PrismJS/prism) under the hood, thus supports all the same syntaxes
+- About 14kB minified + gziped when using a single language syntax. Languages tend to add a bit of weight, see [unpkg](https://unpkg.com/refractor@2.3.0/lang/) for some pointers on how much.
 
 Feel free to check out a [super-simple demo](http://rexxars.github.io/react-refractor/).
 
