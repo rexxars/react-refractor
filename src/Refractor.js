@@ -42,7 +42,6 @@ Refractor.propTypes = {
   inline: PropTypes.bool,
   language: PropTypes.string.isRequired,
   value: PropTypes.string.isRequired,
-  astPlugins: PropTypes.arrayOf(PropTypes.func),
   markers: PropTypes.arrayOf(
     PropTypes.oneOfType([
       PropTypes.number,
@@ -56,7 +55,6 @@ Refractor.propTypes = {
 }
 
 Refractor.defaultProps = {
-  astPlugins: [],
   className: 'refractor',
   inline: false,
 }
