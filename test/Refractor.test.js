@@ -56,6 +56,14 @@ test('should be able to highlight specific, out-of-order lines with markers', ()
   expect(render({value: code, markers, language}, {withWrapper: true})).toMatchSnapshot()
 })
 
+test('does not crash on markers beyond the number of lines in source', () => {
+  const language = 'javascript'
+  const code = "import foo from 'bar'"
+  const markers = [9, 11, 10, 12, 13, 100, 14, 15, 16, 17, 18, 1]
+
+  expect(render({value: code, markers, language})).toMatchSnapshot()
+})
+
 function render(props, options) {
   const opts = options || {}
   const html = opts.reactAttrs

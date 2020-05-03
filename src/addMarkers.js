@@ -171,13 +171,13 @@ function wrapLines(treeNodes, markers, options) {
     const marker = markers[m]
 
     // Start by eating all AST nodes with line numbers up to the given marker
-    for (let node = ast[astIndex]; node.lineEnd < marker.line; node = ast[++astIndex]) {
+    for (let node = ast[astIndex]; node && node.lineEnd < marker.line; node = ast[++astIndex]) {
       wrapped.push(node)
     }
 
     // Now proceed to find all _contiguous_ nodes on the same line
     const batch = []
-    for (let node = ast[astIndex]; node.lineEnd === marker.line; node = ast[++astIndex]) {
+    for (let node = ast[astIndex]; node && node.lineEnd === marker.line; node = ast[++astIndex]) {
       batch.push(node)
     }
 

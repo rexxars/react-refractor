@@ -3141,3 +3141,3193 @@ Array [
   },
 ]
 `;
+
+exports[`does not crash on markers beyond the number of lines in source 1`] = `
+Array [
+  Object {
+    "children": Array [
+      Object {
+        "children": Array [
+          Object {
+            "lineEnd": 1,
+            "lineStart": 1,
+            "type": "text",
+            "value": "import",
+          },
+        ],
+        "lineEnd": 1,
+        "lineStart": 1,
+        "properties": Object {
+          "className": Array [
+            "token",
+            "keyword",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      Object {
+        "lineEnd": 1,
+        "lineStart": 1,
+        "type": "text",
+        "value": " client ",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "lineEnd": 1,
+            "lineStart": 1,
+            "type": "text",
+            "value": "from",
+          },
+        ],
+        "lineEnd": 1,
+        "lineStart": 1,
+        "properties": Object {
+          "className": Array [
+            "token",
+            "keyword",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      Object {
+        "lineEnd": 1,
+        "lineStart": 1,
+        "type": "text",
+        "value": " ",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "lineEnd": 1,
+            "lineStart": 1,
+            "type": "text",
+            "value": "'part:@sanity/base/client'",
+          },
+        ],
+        "lineEnd": 1,
+        "lineStart": 1,
+        "properties": Object {
+          "className": Array [
+            "token",
+            "string",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      Object {
+        "lineEnd": 1,
+        "lineStart": 1,
+        "type": "text",
+        "value": "
+",
+      },
+    ],
+    "isMarker": true,
+    "lineEnd": 1,
+    "lineStart": 1,
+    "properties": Object {
+      "className": "refractor-marker",
+    },
+    "tagName": "div",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 2,
+    "lineStart": 2,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 3,
+    "lineStart": 3,
+    "type": "text",
+    "value": "",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 3,
+        "lineStart": 3,
+        "type": "text",
+        "value": "export",
+      },
+    ],
+    "lineEnd": 3,
+    "lineStart": 3,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "keyword",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 3,
+    "lineStart": 3,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 3,
+        "lineStart": 3,
+        "type": "text",
+        "value": "default",
+      },
+    ],
+    "lineEnd": 3,
+    "lineStart": 3,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "keyword",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 3,
+    "lineStart": 3,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 3,
+        "lineStart": 3,
+        "type": "text",
+        "value": "{",
+      },
+    ],
+    "lineEnd": 3,
+    "lineStart": 3,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 3,
+    "lineStart": 3,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 4,
+    "lineStart": 4,
+    "type": "text",
+    "value": "  name",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 4,
+        "lineStart": 4,
+        "type": "text",
+        "value": ":",
+      },
+    ],
+    "lineEnd": 4,
+    "lineStart": 4,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "operator",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 4,
+    "lineStart": 4,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 4,
+        "lineStart": 4,
+        "type": "text",
+        "value": "'post'",
+      },
+    ],
+    "lineEnd": 4,
+    "lineStart": 4,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "string",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 4,
+        "lineStart": 4,
+        "type": "text",
+        "value": ",",
+      },
+    ],
+    "lineEnd": 4,
+    "lineStart": 4,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 4,
+    "lineStart": 4,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 5,
+    "lineStart": 5,
+    "type": "text",
+    "value": "  type",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 5,
+        "lineStart": 5,
+        "type": "text",
+        "value": ":",
+      },
+    ],
+    "lineEnd": 5,
+    "lineStart": 5,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "operator",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 5,
+    "lineStart": 5,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 5,
+        "lineStart": 5,
+        "type": "text",
+        "value": "'document'",
+      },
+    ],
+    "lineEnd": 5,
+    "lineStart": 5,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "string",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 5,
+        "lineStart": 5,
+        "type": "text",
+        "value": ",",
+      },
+    ],
+    "lineEnd": 5,
+    "lineStart": 5,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 5,
+    "lineStart": 5,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 6,
+    "lineStart": 6,
+    "type": "text",
+    "value": "  title",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 6,
+        "lineStart": 6,
+        "type": "text",
+        "value": ":",
+      },
+    ],
+    "lineEnd": 6,
+    "lineStart": 6,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "operator",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 6,
+    "lineStart": 6,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 6,
+        "lineStart": 6,
+        "type": "text",
+        "value": "'Blog post'",
+      },
+    ],
+    "lineEnd": 6,
+    "lineStart": 6,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "string",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 6,
+        "lineStart": 6,
+        "type": "text",
+        "value": ",",
+      },
+    ],
+    "lineEnd": 6,
+    "lineStart": 6,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 6,
+    "lineStart": 6,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 7,
+    "lineStart": 7,
+    "type": "text",
+    "value": "  ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 7,
+        "lineStart": 7,
+        "type": "text",
+        "value": "initialValue",
+      },
+    ],
+    "lineEnd": 7,
+    "lineStart": 7,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "function-variable",
+        "function",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 7,
+        "lineStart": 7,
+        "type": "text",
+        "value": ":",
+      },
+    ],
+    "lineEnd": 7,
+    "lineStart": 7,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "operator",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 7,
+    "lineStart": 7,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 7,
+        "lineStart": 7,
+        "type": "text",
+        "value": "async",
+      },
+    ],
+    "lineEnd": 7,
+    "lineStart": 7,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "keyword",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 7,
+    "lineStart": 7,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 7,
+        "lineStart": 7,
+        "type": "text",
+        "value": "(",
+      },
+    ],
+    "lineEnd": 7,
+    "lineStart": 7,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 7,
+        "lineStart": 7,
+        "type": "text",
+        "value": ")",
+      },
+    ],
+    "lineEnd": 7,
+    "lineStart": 7,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 7,
+    "lineStart": 7,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 7,
+        "lineStart": 7,
+        "type": "text",
+        "value": "=>",
+      },
+    ],
+    "lineEnd": 7,
+    "lineStart": 7,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "operator",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 7,
+    "lineStart": 7,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 7,
+        "lineStart": 7,
+        "type": "text",
+        "value": "(",
+      },
+    ],
+    "lineEnd": 7,
+    "lineStart": 7,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 7,
+        "lineStart": 7,
+        "type": "text",
+        "value": "{",
+      },
+    ],
+    "lineEnd": 7,
+    "lineStart": 7,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 7,
+    "lineStart": 7,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 8,
+    "lineStart": 8,
+    "type": "text",
+    "value": "    publishedAt",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 8,
+        "lineStart": 8,
+        "type": "text",
+        "value": ":",
+      },
+    ],
+    "lineEnd": 8,
+    "lineStart": 8,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "operator",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 8,
+    "lineStart": 8,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 8,
+        "lineStart": 8,
+        "type": "text",
+        "value": "new",
+      },
+    ],
+    "lineEnd": 8,
+    "lineStart": 8,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "keyword",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 8,
+    "lineStart": 8,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 8,
+        "lineStart": 8,
+        "type": "text",
+        "value": "Date",
+      },
+    ],
+    "lineEnd": 8,
+    "lineStart": 8,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "class-name",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 8,
+        "lineStart": 8,
+        "type": "text",
+        "value": "(",
+      },
+    ],
+    "lineEnd": 8,
+    "lineStart": 8,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 8,
+        "lineStart": 8,
+        "type": "text",
+        "value": ")",
+      },
+    ],
+    "lineEnd": 8,
+    "lineStart": 8,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 8,
+        "lineStart": 8,
+        "type": "text",
+        "value": ".",
+      },
+    ],
+    "lineEnd": 8,
+    "lineStart": 8,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 8,
+        "lineStart": 8,
+        "type": "text",
+        "value": "toISOString",
+      },
+    ],
+    "lineEnd": 8,
+    "lineStart": 8,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "function",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 8,
+        "lineStart": 8,
+        "type": "text",
+        "value": "(",
+      },
+    ],
+    "lineEnd": 8,
+    "lineStart": 8,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 8,
+        "lineStart": 8,
+        "type": "text",
+        "value": ")",
+      },
+    ],
+    "lineEnd": 8,
+    "lineStart": 8,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 8,
+        "lineStart": 8,
+        "type": "text",
+        "value": ",",
+      },
+    ],
+    "lineEnd": 8,
+    "lineStart": 8,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 8,
+    "lineStart": 8,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 9,
+        "lineStart": 9,
+        "type": "text",
+        "value": "    authors",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "lineEnd": 9,
+            "lineStart": 9,
+            "type": "text",
+            "value": ":",
+          },
+        ],
+        "lineEnd": 9,
+        "lineStart": 9,
+        "properties": Object {
+          "className": Array [
+            "token",
+            "operator",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      Object {
+        "lineEnd": 9,
+        "lineStart": 9,
+        "type": "text",
+        "value": " ",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "lineEnd": 9,
+            "lineStart": 9,
+            "type": "text",
+            "value": "await",
+          },
+        ],
+        "lineEnd": 9,
+        "lineStart": 9,
+        "properties": Object {
+          "className": Array [
+            "token",
+            "keyword",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      Object {
+        "lineEnd": 9,
+        "lineStart": 9,
+        "type": "text",
+        "value": " client",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "lineEnd": 9,
+            "lineStart": 9,
+            "type": "text",
+            "value": ".",
+          },
+        ],
+        "lineEnd": 9,
+        "lineStart": 9,
+        "properties": Object {
+          "className": Array [
+            "token",
+            "punctuation",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "lineEnd": 9,
+            "lineStart": 9,
+            "type": "text",
+            "value": "fetch",
+          },
+        ],
+        "lineEnd": 9,
+        "lineStart": 9,
+        "properties": Object {
+          "className": Array [
+            "token",
+            "function",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "lineEnd": 9,
+            "lineStart": 9,
+            "type": "text",
+            "value": "(",
+          },
+        ],
+        "lineEnd": 9,
+        "lineStart": 9,
+        "properties": Object {
+          "className": Array [
+            "token",
+            "punctuation",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "lineEnd": 9,
+                "lineStart": 9,
+                "type": "text",
+                "value": "\`",
+              },
+            ],
+            "lineEnd": 9,
+            "lineStart": 9,
+            "properties": Object {
+              "className": Array [
+                "token",
+                "template-punctuation",
+                "string",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "lineEnd": 9,
+                "lineStart": 9,
+                "type": "text",
+                "value": "
+",
+              },
+            ],
+            "lineEnd": 9,
+            "lineStart": 9,
+            "properties": Object {
+              "className": Array [
+                "token",
+                "string",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+        ],
+        "lineEnd": 9,
+        "lineStart": 9,
+        "properties": Object {
+          "className": Array [
+            "token",
+            "template-string",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+    ],
+    "isMarker": true,
+    "lineEnd": 9,
+    "lineStart": 9,
+    "properties": Object {
+      "className": "refractor-marker",
+    },
+    "tagName": "div",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "lineEnd": 10,
+                "lineStart": 10,
+                "type": "text",
+                "value": "",
+              },
+              Object {
+                "lineEnd": 10,
+                "lineStart": 10,
+                "type": "text",
+                "value": "      *[_type == \\"author\\" && \\"marketing\\" in responsbilities]{
+",
+              },
+            ],
+            "lineEnd": 10,
+            "lineStart": 10,
+            "properties": Object {
+              "className": Array [
+                "token",
+                "string",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+        ],
+        "lineEnd": 10,
+        "lineStart": 10,
+        "properties": Object {
+          "className": Array [
+            "token",
+            "template-string",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+    ],
+    "isMarker": true,
+    "lineEnd": 10,
+    "lineStart": 10,
+    "properties": Object {
+      "className": "refractor-marker",
+    },
+    "tagName": "div",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "lineEnd": 11,
+                "lineStart": 11,
+                "type": "text",
+                "value": "",
+              },
+              Object {
+                "lineEnd": 11,
+                "lineStart": 11,
+                "type": "text",
+                "value": "        \\"_type\\": \\"authorReference\\",
+",
+              },
+            ],
+            "lineEnd": 11,
+            "lineStart": 11,
+            "properties": Object {
+              "className": Array [
+                "token",
+                "string",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+        ],
+        "lineEnd": 11,
+        "lineStart": 11,
+        "properties": Object {
+          "className": Array [
+            "token",
+            "template-string",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+    ],
+    "isMarker": true,
+    "lineEnd": 11,
+    "lineStart": 11,
+    "properties": Object {
+      "className": "refractor-marker",
+    },
+    "tagName": "div",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "lineEnd": 12,
+                "lineStart": 12,
+                "type": "text",
+                "value": "",
+              },
+              Object {
+                "lineEnd": 12,
+                "lineStart": 12,
+                "type": "text",
+                "value": "        \\"author\\": {
+",
+              },
+            ],
+            "lineEnd": 12,
+            "lineStart": 12,
+            "properties": Object {
+              "className": Array [
+                "token",
+                "string",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+        ],
+        "lineEnd": 12,
+        "lineStart": 12,
+        "properties": Object {
+          "className": Array [
+            "token",
+            "template-string",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+    ],
+    "isMarker": true,
+    "lineEnd": 12,
+    "lineStart": 12,
+    "properties": Object {
+      "className": "refractor-marker",
+    },
+    "tagName": "div",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "lineEnd": 13,
+                "lineStart": 13,
+                "type": "text",
+                "value": "",
+              },
+              Object {
+                "lineEnd": 13,
+                "lineStart": 13,
+                "type": "text",
+                "value": "          \\"_type\\": \\"reference\\",
+",
+              },
+            ],
+            "lineEnd": 13,
+            "lineStart": 13,
+            "properties": Object {
+              "className": Array [
+                "token",
+                "string",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+        ],
+        "lineEnd": 13,
+        "lineStart": 13,
+        "properties": Object {
+          "className": Array [
+            "token",
+            "template-string",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+    ],
+    "isMarker": true,
+    "lineEnd": 13,
+    "lineStart": 13,
+    "properties": Object {
+      "className": "refractor-marker",
+    },
+    "tagName": "div",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "lineEnd": 14,
+                "lineStart": 14,
+                "type": "text",
+                "value": "",
+              },
+              Object {
+                "lineEnd": 14,
+                "lineStart": 14,
+                "type": "text",
+                "value": "          \\"_ref\\": _id
+",
+              },
+            ],
+            "lineEnd": 14,
+            "lineStart": 14,
+            "properties": Object {
+              "className": Array [
+                "token",
+                "string",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+        ],
+        "lineEnd": 14,
+        "lineStart": 14,
+        "properties": Object {
+          "className": Array [
+            "token",
+            "template-string",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+    ],
+    "isMarker": true,
+    "lineEnd": 14,
+    "lineStart": 14,
+    "properties": Object {
+      "className": "refractor-marker",
+    },
+    "tagName": "div",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "lineEnd": 15,
+                "lineStart": 15,
+                "type": "text",
+                "value": "",
+              },
+              Object {
+                "lineEnd": 15,
+                "lineStart": 15,
+                "type": "text",
+                "value": "        }
+",
+              },
+            ],
+            "lineEnd": 15,
+            "lineStart": 15,
+            "properties": Object {
+              "className": Array [
+                "token",
+                "string",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+        ],
+        "lineEnd": 15,
+        "lineStart": 15,
+        "properties": Object {
+          "className": Array [
+            "token",
+            "template-string",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+    ],
+    "isMarker": true,
+    "lineEnd": 15,
+    "lineStart": 15,
+    "properties": Object {
+      "className": "refractor-marker",
+    },
+    "tagName": "div",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "lineEnd": 16,
+                "lineStart": 16,
+                "type": "text",
+                "value": "",
+              },
+              Object {
+                "lineEnd": 16,
+                "lineStart": 16,
+                "type": "text",
+                "value": "      }
+",
+              },
+            ],
+            "lineEnd": 16,
+            "lineStart": 16,
+            "properties": Object {
+              "className": Array [
+                "token",
+                "string",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+        ],
+        "lineEnd": 16,
+        "lineStart": 16,
+        "properties": Object {
+          "className": Array [
+            "token",
+            "template-string",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+    ],
+    "isMarker": true,
+    "lineEnd": 16,
+    "lineStart": 16,
+    "properties": Object {
+      "className": "refractor-marker",
+    },
+    "tagName": "div",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "lineEnd": 17,
+                "lineStart": 17,
+                "type": "text",
+                "value": "",
+              },
+              Object {
+                "lineEnd": 17,
+                "lineStart": 17,
+                "type": "text",
+                "value": "    ",
+              },
+            ],
+            "lineEnd": 17,
+            "lineStart": 17,
+            "properties": Object {
+              "className": Array [
+                "token",
+                "string",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "lineEnd": 17,
+                "lineStart": 17,
+                "type": "text",
+                "value": "\`",
+              },
+            ],
+            "lineEnd": 17,
+            "lineStart": 17,
+            "properties": Object {
+              "className": Array [
+                "token",
+                "template-punctuation",
+                "string",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+        ],
+        "lineEnd": 17,
+        "lineStart": 17,
+        "properties": Object {
+          "className": Array [
+            "token",
+            "template-string",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "lineEnd": 17,
+            "lineStart": 17,
+            "type": "text",
+            "value": ")",
+          },
+        ],
+        "lineEnd": 17,
+        "lineStart": 17,
+        "properties": Object {
+          "className": Array [
+            "token",
+            "punctuation",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      Object {
+        "lineEnd": 17,
+        "lineStart": 17,
+        "type": "text",
+        "value": "
+",
+      },
+    ],
+    "isMarker": true,
+    "lineEnd": 17,
+    "lineStart": 17,
+    "properties": Object {
+      "className": "refractor-marker",
+    },
+    "tagName": "div",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 18,
+        "lineStart": 18,
+        "type": "text",
+        "value": "  ",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "lineEnd": 18,
+            "lineStart": 18,
+            "type": "text",
+            "value": "}",
+          },
+        ],
+        "lineEnd": 18,
+        "lineStart": 18,
+        "properties": Object {
+          "className": Array [
+            "token",
+            "punctuation",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "lineEnd": 18,
+            "lineStart": 18,
+            "type": "text",
+            "value": ")",
+          },
+        ],
+        "lineEnd": 18,
+        "lineStart": 18,
+        "properties": Object {
+          "className": Array [
+            "token",
+            "punctuation",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "lineEnd": 18,
+            "lineStart": 18,
+            "type": "text",
+            "value": ",",
+          },
+        ],
+        "lineEnd": 18,
+        "lineStart": 18,
+        "properties": Object {
+          "className": Array [
+            "token",
+            "punctuation",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      Object {
+        "lineEnd": 18,
+        "lineStart": 18,
+        "type": "text",
+        "value": "
+",
+      },
+    ],
+    "isMarker": true,
+    "lineEnd": 18,
+    "lineStart": 18,
+    "properties": Object {
+      "className": "refractor-marker",
+    },
+    "tagName": "div",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 19,
+    "lineStart": 19,
+    "type": "text",
+    "value": "  fields",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 19,
+        "lineStart": 19,
+        "type": "text",
+        "value": ":",
+      },
+    ],
+    "lineEnd": 19,
+    "lineStart": 19,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "operator",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 19,
+    "lineStart": 19,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 19,
+        "lineStart": 19,
+        "type": "text",
+        "value": "[",
+      },
+    ],
+    "lineEnd": 19,
+    "lineStart": 19,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 19,
+    "lineStart": 19,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 20,
+    "lineStart": 20,
+    "type": "text",
+    "value": "    ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 20,
+        "lineStart": 20,
+        "type": "text",
+        "value": "{",
+      },
+    ],
+    "lineEnd": 20,
+    "lineStart": 20,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 20,
+    "lineStart": 20,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 21,
+    "lineStart": 21,
+    "type": "text",
+    "value": "      name",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 21,
+        "lineStart": 21,
+        "type": "text",
+        "value": ":",
+      },
+    ],
+    "lineEnd": 21,
+    "lineStart": 21,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "operator",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 21,
+    "lineStart": 21,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 21,
+        "lineStart": 21,
+        "type": "text",
+        "value": "'title'",
+      },
+    ],
+    "lineEnd": 21,
+    "lineStart": 21,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "string",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 21,
+        "lineStart": 21,
+        "type": "text",
+        "value": ",",
+      },
+    ],
+    "lineEnd": 21,
+    "lineStart": 21,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 21,
+    "lineStart": 21,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 22,
+    "lineStart": 22,
+    "type": "text",
+    "value": "      type",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 22,
+        "lineStart": 22,
+        "type": "text",
+        "value": ":",
+      },
+    ],
+    "lineEnd": 22,
+    "lineStart": 22,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "operator",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 22,
+    "lineStart": 22,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 22,
+        "lineStart": 22,
+        "type": "text",
+        "value": "'string'",
+      },
+    ],
+    "lineEnd": 22,
+    "lineStart": 22,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "string",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 22,
+        "lineStart": 22,
+        "type": "text",
+        "value": ",",
+      },
+    ],
+    "lineEnd": 22,
+    "lineStart": 22,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 22,
+    "lineStart": 22,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 23,
+    "lineStart": 23,
+    "type": "text",
+    "value": "      title",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 23,
+        "lineStart": 23,
+        "type": "text",
+        "value": ":",
+      },
+    ],
+    "lineEnd": 23,
+    "lineStart": 23,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "operator",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 23,
+    "lineStart": 23,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 23,
+        "lineStart": 23,
+        "type": "text",
+        "value": "'Title'",
+      },
+    ],
+    "lineEnd": 23,
+    "lineStart": 23,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "string",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 23,
+    "lineStart": 23,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 24,
+    "lineStart": 24,
+    "type": "text",
+    "value": "    ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 24,
+        "lineStart": 24,
+        "type": "text",
+        "value": "}",
+      },
+    ],
+    "lineEnd": 24,
+    "lineStart": 24,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 24,
+        "lineStart": 24,
+        "type": "text",
+        "value": ",",
+      },
+    ],
+    "lineEnd": 24,
+    "lineStart": 24,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 24,
+    "lineStart": 24,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 25,
+    "lineStart": 25,
+    "type": "text",
+    "value": "    ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 25,
+        "lineStart": 25,
+        "type": "text",
+        "value": "{",
+      },
+    ],
+    "lineEnd": 25,
+    "lineStart": 25,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 25,
+    "lineStart": 25,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 26,
+    "lineStart": 26,
+    "type": "text",
+    "value": "      name",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 26,
+        "lineStart": 26,
+        "type": "text",
+        "value": ":",
+      },
+    ],
+    "lineEnd": 26,
+    "lineStart": 26,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "operator",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 26,
+    "lineStart": 26,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 26,
+        "lineStart": 26,
+        "type": "text",
+        "value": "'slug'",
+      },
+    ],
+    "lineEnd": 26,
+    "lineStart": 26,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "string",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 26,
+        "lineStart": 26,
+        "type": "text",
+        "value": ",",
+      },
+    ],
+    "lineEnd": 26,
+    "lineStart": 26,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 26,
+    "lineStart": 26,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 27,
+    "lineStart": 27,
+    "type": "text",
+    "value": "      type",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 27,
+        "lineStart": 27,
+        "type": "text",
+        "value": ":",
+      },
+    ],
+    "lineEnd": 27,
+    "lineStart": 27,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "operator",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 27,
+    "lineStart": 27,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 27,
+        "lineStart": 27,
+        "type": "text",
+        "value": "'slug'",
+      },
+    ],
+    "lineEnd": 27,
+    "lineStart": 27,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "string",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 27,
+        "lineStart": 27,
+        "type": "text",
+        "value": ",",
+      },
+    ],
+    "lineEnd": 27,
+    "lineStart": 27,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 27,
+    "lineStart": 27,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 28,
+    "lineStart": 28,
+    "type": "text",
+    "value": "      title",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 28,
+        "lineStart": 28,
+        "type": "text",
+        "value": ":",
+      },
+    ],
+    "lineEnd": 28,
+    "lineStart": 28,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "operator",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 28,
+    "lineStart": 28,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 28,
+        "lineStart": 28,
+        "type": "text",
+        "value": "'Slug'",
+      },
+    ],
+    "lineEnd": 28,
+    "lineStart": 28,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "string",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 28,
+    "lineStart": 28,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 29,
+    "lineStart": 29,
+    "type": "text",
+    "value": "    ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 29,
+        "lineStart": 29,
+        "type": "text",
+        "value": "}",
+      },
+    ],
+    "lineEnd": 29,
+    "lineStart": 29,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 29,
+        "lineStart": 29,
+        "type": "text",
+        "value": ",",
+      },
+    ],
+    "lineEnd": 29,
+    "lineStart": 29,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 29,
+    "lineStart": 29,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 30,
+    "lineStart": 30,
+    "type": "text",
+    "value": "    ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 30,
+        "lineStart": 30,
+        "type": "text",
+        "value": "{",
+      },
+    ],
+    "lineEnd": 30,
+    "lineStart": 30,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 30,
+    "lineStart": 30,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 31,
+    "lineStart": 31,
+    "type": "text",
+    "value": "      name",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 31,
+        "lineStart": 31,
+        "type": "text",
+        "value": ":",
+      },
+    ],
+    "lineEnd": 31,
+    "lineStart": 31,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "operator",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 31,
+    "lineStart": 31,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 31,
+        "lineStart": 31,
+        "type": "text",
+        "value": "'publishedAt'",
+      },
+    ],
+    "lineEnd": 31,
+    "lineStart": 31,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "string",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 31,
+        "lineStart": 31,
+        "type": "text",
+        "value": ",",
+      },
+    ],
+    "lineEnd": 31,
+    "lineStart": 31,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 31,
+    "lineStart": 31,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 32,
+    "lineStart": 32,
+    "type": "text",
+    "value": "      type",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 32,
+        "lineStart": 32,
+        "type": "text",
+        "value": ":",
+      },
+    ],
+    "lineEnd": 32,
+    "lineStart": 32,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "operator",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 32,
+    "lineStart": 32,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 32,
+        "lineStart": 32,
+        "type": "text",
+        "value": "'datetime'",
+      },
+    ],
+    "lineEnd": 32,
+    "lineStart": 32,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "string",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 32,
+        "lineStart": 32,
+        "type": "text",
+        "value": ",",
+      },
+    ],
+    "lineEnd": 32,
+    "lineStart": 32,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 32,
+    "lineStart": 32,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 33,
+    "lineStart": 33,
+    "type": "text",
+    "value": "      title",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 33,
+        "lineStart": 33,
+        "type": "text",
+        "value": ":",
+      },
+    ],
+    "lineEnd": 33,
+    "lineStart": 33,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "operator",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 33,
+    "lineStart": 33,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 33,
+        "lineStart": 33,
+        "type": "text",
+        "value": "'Published at'",
+      },
+    ],
+    "lineEnd": 33,
+    "lineStart": 33,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "string",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 33,
+    "lineStart": 33,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 34,
+    "lineStart": 34,
+    "type": "text",
+    "value": "    ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 34,
+        "lineStart": 34,
+        "type": "text",
+        "value": "}",
+      },
+    ],
+    "lineEnd": 34,
+    "lineStart": 34,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 34,
+        "lineStart": 34,
+        "type": "text",
+        "value": ",",
+      },
+    ],
+    "lineEnd": 34,
+    "lineStart": 34,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 34,
+    "lineStart": 34,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 35,
+    "lineStart": 35,
+    "type": "text",
+    "value": "    ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 35,
+        "lineStart": 35,
+        "type": "text",
+        "value": "{",
+      },
+    ],
+    "lineEnd": 35,
+    "lineStart": 35,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 35,
+    "lineStart": 35,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 36,
+    "lineStart": 36,
+    "type": "text",
+    "value": "      name",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 36,
+        "lineStart": 36,
+        "type": "text",
+        "value": ":",
+      },
+    ],
+    "lineEnd": 36,
+    "lineStart": 36,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "operator",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 36,
+    "lineStart": 36,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 36,
+        "lineStart": 36,
+        "type": "text",
+        "value": "'authors'",
+      },
+    ],
+    "lineEnd": 36,
+    "lineStart": 36,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "string",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 36,
+        "lineStart": 36,
+        "type": "text",
+        "value": ",",
+      },
+    ],
+    "lineEnd": 36,
+    "lineStart": 36,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 36,
+    "lineStart": 36,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 37,
+    "lineStart": 37,
+    "type": "text",
+    "value": "      type",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 37,
+        "lineStart": 37,
+        "type": "text",
+        "value": ":",
+      },
+    ],
+    "lineEnd": 37,
+    "lineStart": 37,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "operator",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 37,
+    "lineStart": 37,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 37,
+        "lineStart": 37,
+        "type": "text",
+        "value": "'array'",
+      },
+    ],
+    "lineEnd": 37,
+    "lineStart": 37,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "string",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 37,
+        "lineStart": 37,
+        "type": "text",
+        "value": ",",
+      },
+    ],
+    "lineEnd": 37,
+    "lineStart": 37,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 37,
+    "lineStart": 37,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 38,
+    "lineStart": 38,
+    "type": "text",
+    "value": "      title",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 38,
+        "lineStart": 38,
+        "type": "text",
+        "value": ":",
+      },
+    ],
+    "lineEnd": 38,
+    "lineStart": 38,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "operator",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 38,
+    "lineStart": 38,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 38,
+        "lineStart": 38,
+        "type": "text",
+        "value": "'Authors'",
+      },
+    ],
+    "lineEnd": 38,
+    "lineStart": 38,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "string",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 38,
+        "lineStart": 38,
+        "type": "text",
+        "value": ",",
+      },
+    ],
+    "lineEnd": 38,
+    "lineStart": 38,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 38,
+    "lineStart": 38,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 39,
+    "lineStart": 39,
+    "type": "text",
+    "value": "      ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 39,
+        "lineStart": 39,
+        "type": "text",
+        "value": "of",
+      },
+    ],
+    "lineEnd": 39,
+    "lineStart": 39,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "keyword",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 39,
+        "lineStart": 39,
+        "type": "text",
+        "value": ":",
+      },
+    ],
+    "lineEnd": 39,
+    "lineStart": 39,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "operator",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 39,
+    "lineStart": 39,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 39,
+        "lineStart": 39,
+        "type": "text",
+        "value": "[",
+      },
+    ],
+    "lineEnd": 39,
+    "lineStart": 39,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 39,
+    "lineStart": 39,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 40,
+    "lineStart": 40,
+    "type": "text",
+    "value": "        ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 40,
+        "lineStart": 40,
+        "type": "text",
+        "value": "{",
+      },
+    ],
+    "lineEnd": 40,
+    "lineStart": 40,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 40,
+    "lineStart": 40,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 41,
+    "lineStart": 41,
+    "type": "text",
+    "value": "          type",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 41,
+        "lineStart": 41,
+        "type": "text",
+        "value": ":",
+      },
+    ],
+    "lineEnd": 41,
+    "lineStart": 41,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "operator",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 41,
+    "lineStart": 41,
+    "type": "text",
+    "value": " ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 41,
+        "lineStart": 41,
+        "type": "text",
+        "value": "'authorReference'",
+      },
+    ],
+    "lineEnd": 41,
+    "lineStart": 41,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "string",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 41,
+    "lineStart": 41,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 42,
+    "lineStart": 42,
+    "type": "text",
+    "value": "        ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 42,
+        "lineStart": 42,
+        "type": "text",
+        "value": "}",
+      },
+    ],
+    "lineEnd": 42,
+    "lineStart": 42,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 42,
+    "lineStart": 42,
+    "type": "text",
+    "value": "  
+",
+  },
+  Object {
+    "lineEnd": 43,
+    "lineStart": 43,
+    "type": "text",
+    "value": "      ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 43,
+        "lineStart": 43,
+        "type": "text",
+        "value": "]",
+      },
+    ],
+    "lineEnd": 43,
+    "lineStart": 43,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 43,
+    "lineStart": 43,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 44,
+    "lineStart": 44,
+    "type": "text",
+    "value": "    ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 44,
+        "lineStart": 44,
+        "type": "text",
+        "value": "}",
+      },
+    ],
+    "lineEnd": 44,
+    "lineStart": 44,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 44,
+    "lineStart": 44,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 45,
+    "lineStart": 45,
+    "type": "text",
+    "value": "    ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 45,
+        "lineStart": 45,
+        "type": "text",
+        "value": "// ...",
+      },
+    ],
+    "lineEnd": 45,
+    "lineStart": 45,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "comment",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 45,
+    "lineStart": 45,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 46,
+    "lineStart": 46,
+    "type": "text",
+    "value": "  ",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 46,
+        "lineStart": 46,
+        "type": "text",
+        "value": "]",
+      },
+    ],
+    "lineEnd": 46,
+    "lineStart": 46,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  Object {
+    "lineEnd": 46,
+    "lineStart": 46,
+    "type": "text",
+    "value": "
+",
+  },
+  Object {
+    "lineEnd": 47,
+    "lineStart": 47,
+    "type": "text",
+    "value": "",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "lineEnd": 47,
+        "lineStart": 47,
+        "type": "text",
+        "value": "}",
+      },
+    ],
+    "lineEnd": 47,
+    "lineStart": 47,
+    "properties": Object {
+      "className": Array [
+        "token",
+        "punctuation",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+]
+`;
