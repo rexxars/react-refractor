@@ -1,4 +1,5 @@
 import * as React from 'react'
+import {RefractorSyntax} from 'refractor'
 
 declare function Refractor(props: Refractor.Props): JSX.Element
 declare namespace Refractor {
@@ -22,8 +23,8 @@ declare namespace Refractor {
     markers?: (Marker | number)[]
   }
 
-  var registerLanguage: (lang: string) => void
-  var hasLanguage: (lang: string) => boolean
+  var registerLanguage: (lang: RefractorSyntax) => void
+  var hasLanguage: (lang: RefractorSyntax) => boolean
 }
 
 export = Refractor
