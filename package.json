@@ -40,7 +40,8 @@
       "build:es5",
       "build:demo:prod"
     ],
-    "staticpath": "demo"
+    "staticpath": "demo",
+    "mainBranch": "main"
   },
   "homepage": "https://github.com/rexxars/react-refractor#readme",
   "dependencies": {
@@ -53,11 +54,11 @@
     "@babel/cli": "^7.11.6",
     "@babel/core": "^7.11.6",
     "@babel/preset-env": "^7.11.5",
+    "@rexxars/gh-pages-deploy": "^0.5.3",
     "babel-loader": "^8.1.0",
     "eslint": "^7.8.1",
     "eslint-config-prettier": "^6.11.0",
     "eslint-config-sanity": "^1.150.1",
-    "gh-pages-deploy": "^0.5.1",
     "jest": "^26.4.2",
     "prettier": "^2.1.1",
     "react": "^16.3.2",
