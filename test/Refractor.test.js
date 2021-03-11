@@ -51,7 +51,7 @@ test('should be able to highlight specific lines with markers', () => {
 test('should be able to append line numbers', () => {
   const language = 'javascript'
   const code = '{\n  title: "Sanity",\n  url: "https://sanity.io/"\n}\n'
-  expect(render({value: code, language}, {lineNumbers: true})) .toMatchSnapshot()
+  expect(render({value: code, language, lineNumbers: true}, {withWrapper: true})) .toMatchSnapshot()
 })
 
 test('should be able to highlight specific, out-of-order lines with markers', () => {

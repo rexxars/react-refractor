@@ -38,14 +38,14 @@ function Refractor(props) {
     codeProps,
     props.lineNumbers
       ? [
-          value,
+          ...value,
           h(
             'span',
-            {className: 'line-numbers', 'aria-hidden': true},
+            {className: 'line-numbers', 'aria-hidden': true, key: 'fract-line-numbers'},
             props.value
               .split('\n')
               .slice(1)
-              .map((_, index) => h('span', {'data-line': index + 1}))
+              .map((_, index) => h('span', {'data-line': index + 1, key: `${index + 1}`}))
           ),
         ]
       : value

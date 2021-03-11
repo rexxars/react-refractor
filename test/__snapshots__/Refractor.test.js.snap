@@ -3,11 +3,11 @@
 exports[`does not crash on markers beyond the number of lines in source 1`] = `"<div class=\\"refractor-marker\\"><span class=\\"token keyword\\">import</span> foo <span class=\\"token keyword\\">from</span> <span class=\\"token string\\">&#x27;bar&#x27;</span></div>"`;
 
 exports[`should be able to append line numbers 1`] = `
-"<span class=\\"token punctuation\\">{</span>
+"<pre class=\\"refractor language-javascript\\"><code class=\\"language-javascript\\"><span class=\\"token punctuation\\">{</span>
   title<span class=\\"token operator\\">:</span> <span class=\\"token string\\">&quot;Sanity&quot;</span><span class=\\"token punctuation\\">,</span>
   url<span class=\\"token operator\\">:</span> <span class=\\"token string\\">&quot;https://sanity.io/&quot;</span>
 <span class=\\"token punctuation\\">}</span>
-"
+<span class=\\"line-numbers\\" aria-hidden=\\"true\\"><span data-line=\\"1\\"></span><span data-line=\\"2\\"></span><span data-line=\\"3\\"></span><span data-line=\\"4\\"></span></span></code></pre>"
 `;
 
 exports[`should be able to highlight specific lines with markers 1`] = `
