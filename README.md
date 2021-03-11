@@ -47,13 +47,14 @@ Note that when using the `markers` feature, there is an additional class name ca
 
 ## Props
 
-| Name        | Description                                                                           |
-| :---------- | :------------------------------------------------------------------------------------ |
-| `className` | Class name for the outermost `pre` tag. Default: `refractor`                          |
-| `language`  | Language to use for syntax highlighting this value. Must be registered prior to usage |
-| `value`     | The code snippet to syntax highlight                                                  |
-| `inline`    | Whether code should be displayed inline (no `<pre>` tag, sets `display: inline`)      |
-| `markers`   | Array of lines to mark. See section on markers below                                  |
+| Name          | Description                                                                           |
+| :------------ | :------------------------------------------------------------------------------------ |
+| `className`   | Class name for the outermost `pre` tag. Default: `refractor`                          |
+| `language`    | Language to use for syntax highlighting this value. Must be registered prior to usage |
+| `value`       | The code snippet to syntax highlight                                                  |
+| `inline`      | Whether code should be displayed inline (no `<pre>` tag, sets `display: inline`)      |
+| `markers`     | Array of lines to mark. See section on markers below                                  |
+| `lineNumbers` | Enable line numbers                                                                   |
 
 ## Differences to Prism
 
@@ -102,6 +103,35 @@ const baz = "bar" + bar
     )}
   ]}
 />
+```
+
+## lineNumbers
+
+When `lineNumbers` is enabled, react-refractor will append line number data just like the [Prism's Line Numbers plugin](https://prismjs.com/plugins/line-numbers/). However you should provide your own styling. E.g.:
+
+```css
+pre[class*=language-] {
+  margin: 0;
+  padding-left: 50px;
+}
+code[class*=language-] {
+  position: relative;
+}
+.line-numbers {
+  position: absolute;
+  top: 0;
+  left: -40px;
+  border-right: 1px solid #eee;
+  color: #ccc;
+  padding-right: 5px;
+  text-align: right;
+}
+.line-numbers > span {
+  display: block;
+}
+.line-numbers > span::before {
+  content: attr(data-line);
+}
 ```
 
 ## Dynamic loading
