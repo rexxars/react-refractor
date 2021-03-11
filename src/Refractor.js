@@ -33,7 +33,23 @@ function Refractor(props) {
 
   const value = ast.length === 0 ? props.value : ast.map(mapChildren.depth(0))
 
-  const code = h('code', codeProps, value)
+  const code = h(
+    'code',
+    codeProps,
+    props.lineNumbers
+      ? [
+          value,
+          h(
+            'span',
+            {className: 'line-numbers', 'aria-hidden': true},
+            props.value
+              .split('\n')
+              .slice(1)
+              .map((_, index) => h('span', {'data-line': index + 1}))
+          ),
+        ]
+      : value
+  )
   return props.inline ? code : h('pre', preProps, code)
 }
 
@@ -52,11 +68,13 @@ Refractor.propTypes = {
       }),
     ])
   ),
+  lineNumbers: PropTypes.bool,
 }
 
 Refractor.defaultProps = {
   className: 'refractor',
   inline: false,
+  lineNumbers: false,
 }
 
 Refractor.registerLanguage = (lang) => fract.register(lang)
