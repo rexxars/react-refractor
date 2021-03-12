@@ -33,6 +33,8 @@ function Refractor(props) {
 
   const value = ast.length === 0 ? props.value : ast.map(mapChildren.depth(0))
 
+  const lines = props.value.split('\n')
+
   const code = h(
     'code',
     codeProps,
@@ -42,9 +44,12 @@ function Refractor(props) {
           h(
             'span',
             {className: 'line-numbers', 'aria-hidden': true, key: 'fract-line-numbers'},
-            props.value
-              .split('\n')
-              .slice(1)
+            lines
+              .filter((line, index) => {
+                // filter out if the last line contains nothing
+                if (index === lines.length - 1 && line === '') return false
+                return true
+              })
               .map((_, index) => h('span', {'data-line': index + 1, key: `${index + 1}`}))
           ),
         ]
