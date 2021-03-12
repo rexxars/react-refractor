@@ -134,6 +134,8 @@ code[class*=language-] {
 }
 ```
 
+Note that only code with hard wrap can work. Soft warp cases are not handled at the moment.
+
 ## Dynamic loading
 
 You can use `Refractor.hasLanguage(language)` to check if a language has been registered. Combining this with Webpack's [code splitting abilities](https://webpack.github.io/docs/code-splitting.html) (or something similar), you should be able to load definitions for languages on the fly.
