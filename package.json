@@ -15,8 +15,7 @@
     "lint": "eslint .",
     "prepublishOnly": "npm test && npm run build",
     "posttest": "npm run lint",
-    "test": "jest",
-    "test-travis": "jest --coverage"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
