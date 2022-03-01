@@ -4,8 +4,8 @@ exports[`does not crash on markers beyond the number of lines in source 1`] = `"
 
 exports[`should be able to highlight specific lines with markers 1`] = `
 "<pre class=\\"refractor language-javascript\\"><code class=\\"language-javascript\\"><span class=\\"token punctuation\\">{</span>
-<div class=\\"refractor-marker\\">  title<span class=\\"token operator\\">:</span> <span class=\\"token string\\">&quot;Sanity&quot;</span><span class=\\"token punctuation\\">,</span>
-</div><div class=\\"url\\">  url<span class=\\"token operator\\">:</span> <span class=\\"token string\\">&quot;https://sanity.io/&quot;</span>
+<div class=\\"refractor-marker\\">  <span class=\\"token literal-property property\\">title</span><span class=\\"token operator\\">:</span> <span class=\\"token string\\">&quot;Sanity&quot;</span><span class=\\"token punctuation\\">,</span>
+</div><div class=\\"url\\">  <span class=\\"token literal-property property\\">url</span><span class=\\"token operator\\">:</span> <span class=\\"token string\\">&quot;https://sanity.io/&quot;</span>
 </div><span class=\\"token punctuation\\">}</span>
 </code></pre>"
 `;
@@ -14,12 +14,12 @@ exports[`should be able to highlight specific, out-of-order lines with markers 1
 "<pre class=\\"refractor language-javascript\\"><code class=\\"language-javascript\\"><div class=\\"refractor-marker\\"><span class=\\"token keyword\\">import</span> client <span class=\\"token keyword\\">from</span> <span class=\\"token string\\">&#x27;part:@sanity/base/client&#x27;</span>
 </div>
 <span class=\\"token keyword\\">export</span> <span class=\\"token keyword\\">default</span> <span class=\\"token punctuation\\">{</span>
-  name<span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;post&#x27;</span><span class=\\"token punctuation\\">,</span>
-  type<span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;document&#x27;</span><span class=\\"token punctuation\\">,</span>
-  title<span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;Blog post&#x27;</span><span class=\\"token punctuation\\">,</span>
+  <span class=\\"token literal-property property\\">name</span><span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;post&#x27;</span><span class=\\"token punctuation\\">,</span>
+  <span class=\\"token literal-property property\\">type</span><span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;document&#x27;</span><span class=\\"token punctuation\\">,</span>
+  <span class=\\"token literal-property property\\">title</span><span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;Blog post&#x27;</span><span class=\\"token punctuation\\">,</span>
   <span class=\\"token function-variable function\\">initialValue</span><span class=\\"token operator\\">:</span> <span class=\\"token keyword\\">async</span> <span class=\\"token punctuation\\">(</span><span class=\\"token punctuation\\">)</span> <span class=\\"token operator\\">=&gt;</span> <span class=\\"token punctuation\\">(</span><span class=\\"token punctuation\\">{</span>
-    publishedAt<span class=\\"token operator\\">:</span> <span class=\\"token keyword\\">new</span> <span class=\\"token class-name\\">Date</span><span class=\\"token punctuation\\">(</span><span class=\\"token punctuation\\">)</span><span class=\\"token punctuation\\">.</span><span class=\\"token function\\">toISOString</span><span class=\\"token punctuation\\">(</span><span class=\\"token punctuation\\">)</span><span class=\\"token punctuation\\">,</span>
-<div class=\\"refractor-marker\\">    authors<span class=\\"token operator\\">:</span> <span class=\\"token keyword\\">await</span> client<span class=\\"token punctuation\\">.</span><span class=\\"token function\\">fetch</span><span class=\\"token punctuation\\">(</span><span class=\\"token template-string\\"><span class=\\"token template-punctuation string\\">\`</span><span class=\\"token string\\">
+    <span class=\\"token literal-property property\\">publishedAt</span><span class=\\"token operator\\">:</span> <span class=\\"token keyword\\">new</span> <span class=\\"token class-name\\">Date</span><span class=\\"token punctuation\\">(</span><span class=\\"token punctuation\\">)</span><span class=\\"token punctuation\\">.</span><span class=\\"token function\\">toISOString</span><span class=\\"token punctuation\\">(</span><span class=\\"token punctuation\\">)</span><span class=\\"token punctuation\\">,</span>
+<div class=\\"refractor-marker\\">    <span class=\\"token literal-property property\\">authors</span><span class=\\"token operator\\">:</span> <span class=\\"token keyword\\">await</span> client<span class=\\"token punctuation\\">.</span><span class=\\"token function\\">fetch</span><span class=\\"token punctuation\\">(</span><span class=\\"token template-string\\"><span class=\\"token template-punctuation string\\">\`</span><span class=\\"token string\\">
 </span></span></div><div class=\\"refractor-marker\\"><span class=\\"token template-string\\"><span class=\\"token string\\">      *[_type == &quot;author&quot; &amp;&amp; &quot;marketing&quot; in responsbilities]{
 </span></span></div><div class=\\"refractor-marker\\"><span class=\\"token template-string\\"><span class=\\"token string\\">        &quot;_type&quot;: &quot;authorReference&quot;,
 </span></span></div><div class=\\"refractor-marker\\"><span class=\\"token template-string\\"><span class=\\"token string\\">        &quot;author&quot;: {
@@ -29,29 +29,29 @@ exports[`should be able to highlight specific, out-of-order lines with markers 1
 </span></span></div><div class=\\"refractor-marker\\"><span class=\\"token template-string\\"><span class=\\"token string\\">      }
 </span></span></div><div class=\\"refractor-marker\\"><span class=\\"token template-string\\"><span class=\\"token string\\">    </span><span class=\\"token template-punctuation string\\">\`</span></span><span class=\\"token punctuation\\">)</span>
 </div><div class=\\"refractor-marker\\">  <span class=\\"token punctuation\\">}</span><span class=\\"token punctuation\\">)</span><span class=\\"token punctuation\\">,</span>
-</div>  fields<span class=\\"token operator\\">:</span> <span class=\\"token punctuation\\">[</span>
+</div>  <span class=\\"token literal-property property\\">fields</span><span class=\\"token operator\\">:</span> <span class=\\"token punctuation\\">[</span>
     <span class=\\"token punctuation\\">{</span>
-      name<span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;title&#x27;</span><span class=\\"token punctuation\\">,</span>
-      type<span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;string&#x27;</span><span class=\\"token punctuation\\">,</span>
-      title<span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;Title&#x27;</span>
+      <span class=\\"token literal-property property\\">name</span><span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;title&#x27;</span><span class=\\"token punctuation\\">,</span>
+      <span class=\\"token literal-property property\\">type</span><span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;string&#x27;</span><span class=\\"token punctuation\\">,</span>
+      <span class=\\"token literal-property property\\">title</span><span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;Title&#x27;</span>
     <span class=\\"token punctuation\\">}</span><span class=\\"token punctuation\\">,</span>
     <span class=\\"token punctuation\\">{</span>
-      name<span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;slug&#x27;</span><span class=\\"token punctuation\\">,</span>
-      type<span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;slug&#x27;</span><span class=\\"token punctuation\\">,</span>
-      title<span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;Slug&#x27;</span>
+      <span class=\\"token literal-property property\\">name</span><span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;slug&#x27;</span><span class=\\"token punctuation\\">,</span>
+      <span class=\\"token literal-property property\\">type</span><span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;slug&#x27;</span><span class=\\"token punctuation\\">,</span>
+      <span class=\\"token literal-property property\\">title</span><span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;Slug&#x27;</span>
     <span class=\\"token punctuation\\">}</span><span class=\\"token punctuation\\">,</span>
     <span class=\\"token punctuation\\">{</span>
-      name<span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;publishedAt&#x27;</span><span class=\\"token punctuation\\">,</span>
-      type<span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;datetime&#x27;</span><span class=\\"token punctuation\\">,</span>
-      title<span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;Published at&#x27;</span>
+      <span class=\\"token literal-property property\\">name</span><span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;publishedAt&#x27;</span><span class=\\"token punctuation\\">,</span>
+      <span class=\\"token literal-property property\\">type</span><span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;datetime&#x27;</span><span class=\\"token punctuation\\">,</span>
+      <span class=\\"token literal-property property\\">title</span><span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;Published at&#x27;</span>
     <span class=\\"token punctuation\\">}</span><span class=\\"token punctuation\\">,</span>
     <span class=\\"token punctuation\\">{</span>
-      name<span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;authors&#x27;</span><span class=\\"token punctuation\\">,</span>
-      type<span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;array&#x27;</span><span class=\\"token punctuation\\">,</span>
-      title<span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;Authors&#x27;</span><span class=\\"token punctuation\\">,</span>
+      <span class=\\"token literal-property property\\">name</span><span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;authors&#x27;</span><span class=\\"token punctuation\\">,</span>
+      <span class=\\"token literal-property property\\">type</span><span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;array&#x27;</span><span class=\\"token punctuation\\">,</span>
+      <span class=\\"token literal-property property\\">title</span><span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;Authors&#x27;</span><span class=\\"token punctuation\\">,</span>
       <span class=\\"token keyword\\">of</span><span class=\\"token operator\\">:</span> <span class=\\"token punctuation\\">[</span>
         <span class=\\"token punctuation\\">{</span>
-          type<span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;authorReference&#x27;</span>
+          <span class=\\"token literal-property property\\">type</span><span class=\\"token operator\\">:</span> <span class=\\"token string\\">&#x27;authorReference&#x27;</span>
         <span class=\\"token punctuation\\">}</span>  
       <span class=\\"token punctuation\\">]</span>
     <span class=\\"token punctuation\\">}</span>
