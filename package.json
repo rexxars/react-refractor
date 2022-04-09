@@ -1,6 +1,6 @@
 {
   "name": "react-refractor",
-  "version": "2.1.6",
+  "version": "2.1.7",
   "description": "Super-thin React wrapper for refractor (Syntax highlighting using VDOM)",
   "main": "lib/Refractor.js",
   "umd": "umd/main.min.js",
