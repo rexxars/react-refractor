@@ -13,7 +13,7 @@ Feel free to check out a [super-simple demo](http://rexxars.github.io/react-refr
 ## Installation
 
 ```
-npm install --save react-refractor refractor
+npm install --save react-refractor
 ```
 
 ## Usage
