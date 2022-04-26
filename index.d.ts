@@ -21,6 +21,7 @@ declare namespace Refractor {
     className?: string
     inline?: boolean
     markers?: (Marker | number)[]
+    lineNumbers?: boolean
   }
 
   var registerLanguage: (lang: RefractorSyntax) => void
