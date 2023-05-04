@@ -8,6 +8,9 @@ const addMarkers = require('./addMarkers')
 const h = React.createElement
 
 function Refractor(props) {
+  const className = props.className || 'refractor';
+  const inline = props.inline || false;
+
   if (process.env.NODE_ENV !== 'production') {
     if (!fract.registered(props.language)) {
       // eslint-disable-next-line no-console
@@ -19,11 +22,11 @@ function Refractor(props) {
 
   const langClassName = `language-${props.language}`
   const codeProps = {className: langClassName}
-  const preProps = {className: [props.className, langClassName].filter(Boolean).join(' ')}
+  const preProps = {className: [className, langClassName].filter(Boolean).join(' ')}
 
-  if (props.inline) {
+  if (inline) {
     codeProps.style = {display: 'inline'}
-    codeProps.className = props.className
+    codeProps.className = className
   }
 
   let ast = fract.highlight(props.value, props.language)
@@ -34,7 +37,7 @@ function Refractor(props) {
   const value = ast.length === 0 ? props.value : ast.map(mapChildren.depth(0))
 
   const code = h('code', codeProps, value)
-  return props.inline ? code : h('pre', preProps, code)
+  return inline ? code : h('pre', preProps, code)
 }
 
 Refractor.propTypes = {
@@ -52,11 +55,6 @@ Refractor.propTypes = {
       }),
     ])
   ),
-}
-
-Refractor.defaultProps = {
-  className: 'refractor',
-  inline: false,
 }
 
 Refractor.registerLanguage = (lang) => fract.register(lang)
