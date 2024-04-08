@@ -1,6 +1,6 @@
 {
   "name": "react-refractor",
-  "version": "2.1.7",
+  "version": "3.0.0",
   "description": "Super-thin React wrapper for refractor (Syntax highlighting using VDOM)",
   "type": "module",
   "exports": {
