@@ -28,7 +28,7 @@
     "coverage": "vitest --coverage",
     "dev": "vite demo",
     "lint": "eslint .",
-    "prepublishOnly": "npm test && npm run build",
+    "prepublishOnly": "npm run build && npm test",
     "posttest": "npm run lint",
     "test": "vitest && pkg-utils --strict"
   },
