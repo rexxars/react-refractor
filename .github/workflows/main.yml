@@ -1,28 +1,66 @@
 name: CI
 on:
-  - push
-  - pull_request
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      release:
+        description: 'Publish new release'
+        required: true
+        default: false
+        type: boolean
 jobs:
   test:
-    name: Node.js ${{ matrix.node-version }}
+    name: Test node.js ${{ matrix.node-version }}
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
         node-version:
-          - 16
-          - 14
-          - 12
+          - 18
+          - 20
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
+          cache: npm
       - run: npm install
       - run: npm test
-      - run: npm run build:es5
-      - run: npm run build:demo:prod
+  demo:
+    name: Deploy demo
+    needs: [test]
+    runs-on: ubuntu-latest
+    steps:
+      - run: npm install
+      - run: npm run build:demo
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./demo
+          publish_dir: ./demo/dist
+  release:
+    name: Release
+    needs: [test]
+    # only run if opt-in during workflow_dispatch
+    if: always() && github.event.inputs.release == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          # Need to fetch entire commit history to
+          # analyze every commit since last release
+          fetch-depth: 0
+      - uses: actions/setup-node@v3
+        with:
+          node-version: lts/*
+          cache: npm
+      - run: npm ci
+        # Branches that will release new versions are defined in .releaserc.json
+      - run: npx semantic-release
+        # Don't allow interrupting the release step if the job is cancelled, as it can lead to an inconsistent state
+        # e.g. git tags were pushed but it exited before `npm publish`
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}

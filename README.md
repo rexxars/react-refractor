@@ -2,15 +2,17 @@
 
 Syntax highlighter for React, utilizing VDOM for efficient updates
 
-[![npm version](http://img.shields.io/npm/v/react-refractor.svg?style=flat-square)](http://browsenpm.org/package/react-refractor)[![Build Status](https://img.shields.io/github/workflow/status/rexxars/react-refractor/CI?style=flat-square)](https://github.com/rexxars/react-refractor/actions/workflows/main.yml)
+[![npm version](http://img.shields.io/npm/v/react-refractor.svg?style=flat-square)](http://browsenpm.org/package/react-refractor)
 
 - Thin wrapper on top of [refractor](https://github.com/wooorm/refractor) (Syntax highlighting using VDOM)
 - refractor uses [Prism](https://github.com/PrismJS/prism) under the hood, thus supports all the same syntaxes
-- About 14kB minified + gziped when using a single language syntax. Languages tend to add a bit of weight, see [unpkg](https://unpkg.com/refractor@2.3.0/lang/) for some pointers on how much.
+- About 14kB minified + gziped when using a single language syntax. Languages tend to add a bit of weight, see [unpkg](https://unpkg.com/refractor/lang/) for some pointers on how much.
 
 Feel free to check out a [super-simple demo](http://rexxars.github.io/react-refractor/).
 
 ## Installation
+
+This package is [ESM only][esm] and requires React 18 or higher.
 
 ```
 npm install --save react-refractor
@@ -19,25 +21,29 @@ npm install --save react-refractor
 ## Usage
 
 ```js
-import Refractor from 'react-refractor'
+import {Refractor, registerLanguage} from 'react-refractor'
 
 // Load any languages you want to use from `refractor`
-import js from 'refractor/lang/javascript'
-import php from 'refractor/lang/php'
+import js from 'refractor/lang/javascript.js'
+import php from 'refractor/lang/php.js'
 
 // Then register them
-Refractor.registerLanguage(js)
-Refractor.registerLanguage(php)
+registerLanguage(js)
+registerLanguage(php)
 
 ReactDOM.render(
   <Refractor language="js" value="/* Code to highlight */" />,
-  document.getElementById('target')
+  document.getElementById('target'),
 )
 ```
 
-You'll need to register the languages you want to use - I've intentionally left all languages out of the default bundle in order to reduce th ebundle size out of the box. Load and register them from [refractor](https://unpkg.com/refractor/lang/) using something like this: `Refractor.registerLanguage(require('refractor/lang/docker'))`.
+You'll need to register the languages you want to use - I've intentionally left all languages out of the default bundle in order to reduce the bundle size out of the box. Load and register them from [refractor](https://unpkg.com/refractor/lang/) using something like this:
 
-If you are only rendering on the server or _really_ don't care about the bundle size, you can import Refractor from `react-refractor/all` to include all supported languages.
+```ts
+import docker from 'refractor/lang/docker'
+
+registerLanguage(docker)
+```
 
 ## Styling
 
@@ -104,10 +110,8 @@ const baz = "bar" + bar
 />
 ```
 
-## Dynamic loading
-
-You can use `Refractor.hasLanguage(language)` to check if a language has been registered. Combining this with Webpack's [code splitting abilities](https://webpack.github.io/docs/code-splitting.html) (or something similar), you should be able to load definitions for languages on the fly.
-
 ## License
 
 MIT-licensed. See LICENSE.
+
+[esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c

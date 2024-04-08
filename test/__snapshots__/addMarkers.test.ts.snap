@@ -1,0 +1,7539 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`adds correct line numbers 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "data": {
+                "lineEnd": 1,
+                "lineStart": 1,
+              },
+              "type": "text",
+              "value": "import",
+            },
+          ],
+          "data": {
+            "lineEnd": 1,
+            "lineStart": 1,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "keyword",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "data": {
+            "lineEnd": 1,
+            "lineStart": 1,
+          },
+          "type": "text",
+          "value": " client ",
+        },
+        {
+          "children": [
+            {
+              "data": {
+                "lineEnd": 1,
+                "lineStart": 1,
+              },
+              "type": "text",
+              "value": "from",
+            },
+          ],
+          "data": {
+            "lineEnd": 1,
+            "lineStart": 1,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "keyword",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "data": {
+            "lineEnd": 1,
+            "lineStart": 1,
+          },
+          "type": "text",
+          "value": " ",
+        },
+        {
+          "children": [
+            {
+              "data": {
+                "lineEnd": 1,
+                "lineStart": 1,
+              },
+              "type": "text",
+              "value": "'part:@sanity/base/client'",
+            },
+          ],
+          "data": {
+            "lineEnd": 1,
+            "lineStart": 1,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "string",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "data": {
+            "lineEnd": 1,
+            "lineStart": 1,
+          },
+          "type": "text",
+          "value": "
+",
+        },
+      ],
+      "data": {
+        "isMarker": true,
+        "lineEnd": 1,
+        "lineStart": 1,
+      },
+      "properties": {
+        "className": "refractor-marker",
+      },
+      "tagName": "div",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 2,
+        "lineStart": 2,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 3,
+        "lineStart": 3,
+      },
+      "type": "text",
+      "value": "",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 3,
+            "lineStart": 3,
+          },
+          "type": "text",
+          "value": "export",
+        },
+      ],
+      "data": {
+        "lineEnd": 3,
+        "lineStart": 3,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "keyword",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 3,
+        "lineStart": 3,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 3,
+            "lineStart": 3,
+          },
+          "type": "text",
+          "value": "default",
+        },
+      ],
+      "data": {
+        "lineEnd": 3,
+        "lineStart": 3,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "keyword",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 3,
+        "lineStart": 3,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 3,
+            "lineStart": 3,
+          },
+          "type": "text",
+          "value": "{",
+        },
+      ],
+      "data": {
+        "lineEnd": 3,
+        "lineStart": 3,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 3,
+        "lineStart": 3,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 4,
+        "lineStart": 4,
+      },
+      "type": "text",
+      "value": "  name",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 4,
+            "lineStart": 4,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 4,
+        "lineStart": 4,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 4,
+        "lineStart": 4,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 4,
+            "lineStart": 4,
+          },
+          "type": "text",
+          "value": "'post'",
+        },
+      ],
+      "data": {
+        "lineEnd": 4,
+        "lineStart": 4,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 4,
+            "lineStart": 4,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 4,
+        "lineStart": 4,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 4,
+        "lineStart": 4,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 5,
+        "lineStart": 5,
+      },
+      "type": "text",
+      "value": "  type",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 5,
+            "lineStart": 5,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 5,
+        "lineStart": 5,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 5,
+        "lineStart": 5,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 5,
+            "lineStart": 5,
+          },
+          "type": "text",
+          "value": "'document'",
+        },
+      ],
+      "data": {
+        "lineEnd": 5,
+        "lineStart": 5,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 5,
+            "lineStart": 5,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 5,
+        "lineStart": 5,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 5,
+        "lineStart": 5,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 6,
+        "lineStart": 6,
+      },
+      "type": "text",
+      "value": "  title",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 6,
+            "lineStart": 6,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 6,
+        "lineStart": 6,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 6,
+        "lineStart": 6,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 6,
+            "lineStart": 6,
+          },
+          "type": "text",
+          "value": "'Blog post'",
+        },
+      ],
+      "data": {
+        "lineEnd": 6,
+        "lineStart": 6,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 6,
+            "lineStart": 6,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 6,
+        "lineStart": 6,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 6,
+        "lineStart": 6,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "type": "text",
+      "value": "  ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 7,
+            "lineStart": 7,
+          },
+          "type": "text",
+          "value": "initialValue",
+        },
+      ],
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "function-variable",
+          "function",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 7,
+            "lineStart": 7,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 7,
+            "lineStart": 7,
+          },
+          "type": "text",
+          "value": "async",
+        },
+      ],
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "keyword",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 7,
+            "lineStart": 7,
+          },
+          "type": "text",
+          "value": "(",
+        },
+      ],
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 7,
+            "lineStart": 7,
+          },
+          "type": "text",
+          "value": ")",
+        },
+      ],
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 7,
+            "lineStart": 7,
+          },
+          "type": "text",
+          "value": "=>",
+        },
+      ],
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 7,
+            "lineStart": 7,
+          },
+          "type": "text",
+          "value": "(",
+        },
+      ],
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 7,
+            "lineStart": 7,
+          },
+          "type": "text",
+          "value": "{",
+        },
+      ],
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "type": "text",
+      "value": "    publishedAt",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 8,
+            "lineStart": 8,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 8,
+            "lineStart": 8,
+          },
+          "type": "text",
+          "value": "new",
+        },
+      ],
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "keyword",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 8,
+            "lineStart": 8,
+          },
+          "type": "text",
+          "value": "Date",
+        },
+      ],
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "class-name",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 8,
+            "lineStart": 8,
+          },
+          "type": "text",
+          "value": "(",
+        },
+      ],
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 8,
+            "lineStart": 8,
+          },
+          "type": "text",
+          "value": ")",
+        },
+      ],
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 8,
+            "lineStart": 8,
+          },
+          "type": "text",
+          "value": ".",
+        },
+      ],
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 8,
+            "lineStart": 8,
+          },
+          "type": "text",
+          "value": "toISOString",
+        },
+      ],
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "function",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 8,
+            "lineStart": 8,
+          },
+          "type": "text",
+          "value": "(",
+        },
+      ],
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 8,
+            "lineStart": 8,
+          },
+          "type": "text",
+          "value": ")",
+        },
+      ],
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 8,
+            "lineStart": 8,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 9,
+            "lineStart": 9,
+          },
+          "type": "text",
+          "value": "    authors",
+        },
+        {
+          "children": [
+            {
+              "data": {
+                "lineEnd": 9,
+                "lineStart": 9,
+              },
+              "type": "text",
+              "value": ":",
+            },
+          ],
+          "data": {
+            "lineEnd": 9,
+            "lineStart": 9,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "operator",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "data": {
+            "lineEnd": 9,
+            "lineStart": 9,
+          },
+          "type": "text",
+          "value": " ",
+        },
+        {
+          "children": [
+            {
+              "data": {
+                "lineEnd": 9,
+                "lineStart": 9,
+              },
+              "type": "text",
+              "value": "await",
+            },
+          ],
+          "data": {
+            "lineEnd": 9,
+            "lineStart": 9,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "keyword",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "data": {
+            "lineEnd": 9,
+            "lineStart": 9,
+          },
+          "type": "text",
+          "value": " client",
+        },
+        {
+          "children": [
+            {
+              "data": {
+                "lineEnd": 9,
+                "lineStart": 9,
+              },
+              "type": "text",
+              "value": ".",
+            },
+          ],
+          "data": {
+            "lineEnd": 9,
+            "lineStart": 9,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "punctuation",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "data": {
+                "lineEnd": 9,
+                "lineStart": 9,
+              },
+              "type": "text",
+              "value": "fetch",
+            },
+          ],
+          "data": {
+            "lineEnd": 9,
+            "lineStart": 9,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "function",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "data": {
+                "lineEnd": 9,
+                "lineStart": 9,
+              },
+              "type": "text",
+              "value": "(",
+            },
+          ],
+          "data": {
+            "lineEnd": 9,
+            "lineStart": 9,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "punctuation",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+      ],
+      "data": {
+        "isMarker": true,
+        "lineEnd": 9,
+        "lineStart": 9,
+      },
+      "properties": {
+        "className": "refractor-marker",
+      },
+      "tagName": "div",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "data": {
+                    "lineEnd": 9,
+                    "lineStart": 9,
+                  },
+                  "type": "text",
+                  "value": "\`",
+                },
+              ],
+              "data": {
+                "lineEnd": 9,
+                "lineStart": 9,
+              },
+              "properties": {
+                "className": [
+                  "token",
+                  "template-punctuation",
+                  "string",
+                ],
+              },
+              "tagName": "span",
+              "type": "element",
+            },
+            {
+              "children": [
+                {
+                  "data": {
+                    "lineEnd": 9,
+                    "lineStart": 9,
+                  },
+                  "type": "text",
+                  "value": "
+",
+                },
+              ],
+              "data": {
+                "lineEnd": 17,
+                "lineStart": 17,
+              },
+              "properties": {
+                "className": [
+                  "token",
+                  "string",
+                ],
+              },
+              "tagName": "span",
+              "type": "element",
+            },
+          ],
+          "data": {
+            "lineEnd": 17,
+            "lineStart": 17,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "template-string",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "data": {
+                    "lineEnd": 10,
+                    "lineStart": 10,
+                  },
+                  "type": "text",
+                  "value": "      *[_type == "author" && "marketing" in responsbilities]{
+",
+                },
+              ],
+              "data": {
+                "lineEnd": 17,
+                "lineStart": 17,
+              },
+              "properties": {
+                "className": [
+                  "token",
+                  "string",
+                ],
+              },
+              "tagName": "span",
+              "type": "element",
+            },
+          ],
+          "data": {
+            "lineEnd": 17,
+            "lineStart": 17,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "template-string",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "data": {
+                    "lineEnd": 11,
+                    "lineStart": 11,
+                  },
+                  "type": "text",
+                  "value": "        "_type": "authorReference",
+",
+                },
+              ],
+              "data": {
+                "lineEnd": 17,
+                "lineStart": 17,
+              },
+              "properties": {
+                "className": [
+                  "token",
+                  "string",
+                ],
+              },
+              "tagName": "span",
+              "type": "element",
+            },
+          ],
+          "data": {
+            "lineEnd": 17,
+            "lineStart": 17,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "template-string",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "data": {
+                    "lineEnd": 12,
+                    "lineStart": 12,
+                  },
+                  "type": "text",
+                  "value": "        "author": {
+",
+                },
+              ],
+              "data": {
+                "lineEnd": 17,
+                "lineStart": 17,
+              },
+              "properties": {
+                "className": [
+                  "token",
+                  "string",
+                ],
+              },
+              "tagName": "span",
+              "type": "element",
+            },
+          ],
+          "data": {
+            "lineEnd": 17,
+            "lineStart": 17,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "template-string",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "data": {
+                    "lineEnd": 13,
+                    "lineStart": 13,
+                  },
+                  "type": "text",
+                  "value": "          "_type": "reference",
+",
+                },
+              ],
+              "data": {
+                "lineEnd": 17,
+                "lineStart": 17,
+              },
+              "properties": {
+                "className": [
+                  "token",
+                  "string",
+                ],
+              },
+              "tagName": "span",
+              "type": "element",
+            },
+          ],
+          "data": {
+            "lineEnd": 17,
+            "lineStart": 17,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "template-string",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "data": {
+                    "lineEnd": 14,
+                    "lineStart": 14,
+                  },
+                  "type": "text",
+                  "value": "          "_ref": _id
+",
+                },
+              ],
+              "data": {
+                "lineEnd": 17,
+                "lineStart": 17,
+              },
+              "properties": {
+                "className": [
+                  "token",
+                  "string",
+                ],
+              },
+              "tagName": "span",
+              "type": "element",
+            },
+          ],
+          "data": {
+            "lineEnd": 17,
+            "lineStart": 17,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "template-string",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "data": {
+                    "lineEnd": 15,
+                    "lineStart": 15,
+                  },
+                  "type": "text",
+                  "value": "        }
+",
+                },
+              ],
+              "data": {
+                "lineEnd": 17,
+                "lineStart": 17,
+              },
+              "properties": {
+                "className": [
+                  "token",
+                  "string",
+                ],
+              },
+              "tagName": "span",
+              "type": "element",
+            },
+          ],
+          "data": {
+            "lineEnd": 17,
+            "lineStart": 17,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "template-string",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "data": {
+                    "lineEnd": 16,
+                    "lineStart": 16,
+                  },
+                  "type": "text",
+                  "value": "      }
+",
+                },
+              ],
+              "data": {
+                "lineEnd": 17,
+                "lineStart": 17,
+              },
+              "properties": {
+                "className": [
+                  "token",
+                  "string",
+                ],
+              },
+              "tagName": "span",
+              "type": "element",
+            },
+          ],
+          "data": {
+            "lineEnd": 17,
+            "lineStart": 17,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "template-string",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "data": {
+                    "lineEnd": 17,
+                    "lineStart": 17,
+                  },
+                  "type": "text",
+                  "value": "    ",
+                },
+              ],
+              "data": {
+                "lineEnd": 17,
+                "lineStart": 17,
+              },
+              "properties": {
+                "className": [
+                  "token",
+                  "string",
+                ],
+              },
+              "tagName": "span",
+              "type": "element",
+            },
+            {
+              "children": [
+                {
+                  "data": {
+                    "lineEnd": 17,
+                    "lineStart": 17,
+                  },
+                  "type": "text",
+                  "value": "\`",
+                },
+              ],
+              "data": {
+                "lineEnd": 17,
+                "lineStart": 17,
+              },
+              "properties": {
+                "className": [
+                  "token",
+                  "template-punctuation",
+                  "string",
+                ],
+              },
+              "tagName": "span",
+              "type": "element",
+            },
+          ],
+          "data": {
+            "lineEnd": 17,
+            "lineStart": 17,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "template-string",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "data": {
+                "lineEnd": 17,
+                "lineStart": 17,
+              },
+              "type": "text",
+              "value": ")",
+            },
+          ],
+          "data": {
+            "lineEnd": 17,
+            "lineStart": 17,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "punctuation",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "data": {
+            "lineEnd": 17,
+            "lineStart": 17,
+          },
+          "type": "text",
+          "value": "
+",
+        },
+      ],
+      "data": {
+        "isMarker": true,
+        "lineEnd": 17,
+        "lineStart": 17,
+      },
+      "properties": {
+        "className": "refractor-marker",
+      },
+      "tagName": "div",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 18,
+            "lineStart": 18,
+          },
+          "type": "text",
+          "value": "  ",
+        },
+        {
+          "children": [
+            {
+              "data": {
+                "lineEnd": 18,
+                "lineStart": 18,
+              },
+              "type": "text",
+              "value": "}",
+            },
+          ],
+          "data": {
+            "lineEnd": 18,
+            "lineStart": 18,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "punctuation",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "data": {
+                "lineEnd": 18,
+                "lineStart": 18,
+              },
+              "type": "text",
+              "value": ")",
+            },
+          ],
+          "data": {
+            "lineEnd": 18,
+            "lineStart": 18,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "punctuation",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "data": {
+                "lineEnd": 18,
+                "lineStart": 18,
+              },
+              "type": "text",
+              "value": ",",
+            },
+          ],
+          "data": {
+            "lineEnd": 18,
+            "lineStart": 18,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "punctuation",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "data": {
+            "lineEnd": 18,
+            "lineStart": 18,
+          },
+          "type": "text",
+          "value": "
+",
+        },
+      ],
+      "data": {
+        "isMarker": true,
+        "lineEnd": 18,
+        "lineStart": 18,
+      },
+      "properties": {
+        "className": "refractor-marker",
+      },
+      "tagName": "div",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 19,
+        "lineStart": 19,
+      },
+      "type": "text",
+      "value": "  fields",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 19,
+            "lineStart": 19,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 19,
+        "lineStart": 19,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 19,
+        "lineStart": 19,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 19,
+            "lineStart": 19,
+          },
+          "type": "text",
+          "value": "[",
+        },
+      ],
+      "data": {
+        "lineEnd": 19,
+        "lineStart": 19,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 19,
+        "lineStart": 19,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 20,
+        "lineStart": 20,
+      },
+      "type": "text",
+      "value": "    ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 20,
+            "lineStart": 20,
+          },
+          "type": "text",
+          "value": "{",
+        },
+      ],
+      "data": {
+        "lineEnd": 20,
+        "lineStart": 20,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 20,
+        "lineStart": 20,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 21,
+        "lineStart": 21,
+      },
+      "type": "text",
+      "value": "      name",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 21,
+            "lineStart": 21,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 21,
+        "lineStart": 21,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 21,
+        "lineStart": 21,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 21,
+            "lineStart": 21,
+          },
+          "type": "text",
+          "value": "'title'",
+        },
+      ],
+      "data": {
+        "lineEnd": 21,
+        "lineStart": 21,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 21,
+            "lineStart": 21,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 21,
+        "lineStart": 21,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 21,
+        "lineStart": 21,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 22,
+        "lineStart": 22,
+      },
+      "type": "text",
+      "value": "      type",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 22,
+            "lineStart": 22,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 22,
+        "lineStart": 22,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 22,
+        "lineStart": 22,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 22,
+            "lineStart": 22,
+          },
+          "type": "text",
+          "value": "'string'",
+        },
+      ],
+      "data": {
+        "lineEnd": 22,
+        "lineStart": 22,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 22,
+            "lineStart": 22,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 22,
+        "lineStart": 22,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 22,
+        "lineStart": 22,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 23,
+        "lineStart": 23,
+      },
+      "type": "text",
+      "value": "      title",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 23,
+            "lineStart": 23,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 23,
+        "lineStart": 23,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 23,
+        "lineStart": 23,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 23,
+            "lineStart": 23,
+          },
+          "type": "text",
+          "value": "'Title'",
+        },
+      ],
+      "data": {
+        "lineEnd": 23,
+        "lineStart": 23,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 23,
+        "lineStart": 23,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 24,
+        "lineStart": 24,
+      },
+      "type": "text",
+      "value": "    ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 24,
+            "lineStart": 24,
+          },
+          "type": "text",
+          "value": "}",
+        },
+      ],
+      "data": {
+        "lineEnd": 24,
+        "lineStart": 24,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 24,
+            "lineStart": 24,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 24,
+        "lineStart": 24,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 24,
+        "lineStart": 24,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 25,
+        "lineStart": 25,
+      },
+      "type": "text",
+      "value": "    ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 25,
+            "lineStart": 25,
+          },
+          "type": "text",
+          "value": "{",
+        },
+      ],
+      "data": {
+        "lineEnd": 25,
+        "lineStart": 25,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 25,
+        "lineStart": 25,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 26,
+        "lineStart": 26,
+      },
+      "type": "text",
+      "value": "      name",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 26,
+            "lineStart": 26,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 26,
+        "lineStart": 26,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 26,
+        "lineStart": 26,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 26,
+            "lineStart": 26,
+          },
+          "type": "text",
+          "value": "'slug'",
+        },
+      ],
+      "data": {
+        "lineEnd": 26,
+        "lineStart": 26,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 26,
+            "lineStart": 26,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 26,
+        "lineStart": 26,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 26,
+        "lineStart": 26,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 27,
+        "lineStart": 27,
+      },
+      "type": "text",
+      "value": "      type",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 27,
+            "lineStart": 27,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 27,
+        "lineStart": 27,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 27,
+        "lineStart": 27,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 27,
+            "lineStart": 27,
+          },
+          "type": "text",
+          "value": "'slug'",
+        },
+      ],
+      "data": {
+        "lineEnd": 27,
+        "lineStart": 27,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 27,
+            "lineStart": 27,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 27,
+        "lineStart": 27,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 27,
+        "lineStart": 27,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 28,
+        "lineStart": 28,
+      },
+      "type": "text",
+      "value": "      title",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 28,
+            "lineStart": 28,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 28,
+        "lineStart": 28,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 28,
+        "lineStart": 28,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 28,
+            "lineStart": 28,
+          },
+          "type": "text",
+          "value": "'Slug'",
+        },
+      ],
+      "data": {
+        "lineEnd": 28,
+        "lineStart": 28,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 28,
+        "lineStart": 28,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 29,
+        "lineStart": 29,
+      },
+      "type": "text",
+      "value": "    ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 29,
+            "lineStart": 29,
+          },
+          "type": "text",
+          "value": "}",
+        },
+      ],
+      "data": {
+        "lineEnd": 29,
+        "lineStart": 29,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 29,
+            "lineStart": 29,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 29,
+        "lineStart": 29,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 29,
+        "lineStart": 29,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 30,
+        "lineStart": 30,
+      },
+      "type": "text",
+      "value": "    ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 30,
+            "lineStart": 30,
+          },
+          "type": "text",
+          "value": "{",
+        },
+      ],
+      "data": {
+        "lineEnd": 30,
+        "lineStart": 30,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 30,
+        "lineStart": 30,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 31,
+        "lineStart": 31,
+      },
+      "type": "text",
+      "value": "      name",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 31,
+            "lineStart": 31,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 31,
+        "lineStart": 31,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 31,
+        "lineStart": 31,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 31,
+            "lineStart": 31,
+          },
+          "type": "text",
+          "value": "'publishedAt'",
+        },
+      ],
+      "data": {
+        "lineEnd": 31,
+        "lineStart": 31,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 31,
+            "lineStart": 31,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 31,
+        "lineStart": 31,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 31,
+        "lineStart": 31,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 32,
+        "lineStart": 32,
+      },
+      "type": "text",
+      "value": "      type",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 32,
+            "lineStart": 32,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 32,
+        "lineStart": 32,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 32,
+        "lineStart": 32,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 32,
+            "lineStart": 32,
+          },
+          "type": "text",
+          "value": "'datetime'",
+        },
+      ],
+      "data": {
+        "lineEnd": 32,
+        "lineStart": 32,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 32,
+            "lineStart": 32,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 32,
+        "lineStart": 32,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 32,
+        "lineStart": 32,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 33,
+        "lineStart": 33,
+      },
+      "type": "text",
+      "value": "      title",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 33,
+            "lineStart": 33,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 33,
+        "lineStart": 33,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 33,
+        "lineStart": 33,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 33,
+            "lineStart": 33,
+          },
+          "type": "text",
+          "value": "'Published at'",
+        },
+      ],
+      "data": {
+        "lineEnd": 33,
+        "lineStart": 33,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 33,
+        "lineStart": 33,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 34,
+        "lineStart": 34,
+      },
+      "type": "text",
+      "value": "    ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 34,
+            "lineStart": 34,
+          },
+          "type": "text",
+          "value": "}",
+        },
+      ],
+      "data": {
+        "lineEnd": 34,
+        "lineStart": 34,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 34,
+            "lineStart": 34,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 34,
+        "lineStart": 34,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 34,
+        "lineStart": 34,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 35,
+        "lineStart": 35,
+      },
+      "type": "text",
+      "value": "    ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 35,
+            "lineStart": 35,
+          },
+          "type": "text",
+          "value": "{",
+        },
+      ],
+      "data": {
+        "lineEnd": 35,
+        "lineStart": 35,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 35,
+        "lineStart": 35,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 36,
+        "lineStart": 36,
+      },
+      "type": "text",
+      "value": "      name",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 36,
+            "lineStart": 36,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 36,
+        "lineStart": 36,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 36,
+        "lineStart": 36,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 36,
+            "lineStart": 36,
+          },
+          "type": "text",
+          "value": "'authors'",
+        },
+      ],
+      "data": {
+        "lineEnd": 36,
+        "lineStart": 36,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 36,
+            "lineStart": 36,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 36,
+        "lineStart": 36,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 36,
+        "lineStart": 36,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 37,
+        "lineStart": 37,
+      },
+      "type": "text",
+      "value": "      type",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 37,
+            "lineStart": 37,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 37,
+        "lineStart": 37,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 37,
+        "lineStart": 37,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 37,
+            "lineStart": 37,
+          },
+          "type": "text",
+          "value": "'array'",
+        },
+      ],
+      "data": {
+        "lineEnd": 37,
+        "lineStart": 37,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 37,
+            "lineStart": 37,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 37,
+        "lineStart": 37,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 37,
+        "lineStart": 37,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 38,
+        "lineStart": 38,
+      },
+      "type": "text",
+      "value": "      title",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 38,
+            "lineStart": 38,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 38,
+        "lineStart": 38,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 38,
+        "lineStart": 38,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 38,
+            "lineStart": 38,
+          },
+          "type": "text",
+          "value": "'Authors'",
+        },
+      ],
+      "data": {
+        "lineEnd": 38,
+        "lineStart": 38,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 38,
+            "lineStart": 38,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 38,
+        "lineStart": 38,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 38,
+        "lineStart": 38,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 39,
+        "lineStart": 39,
+      },
+      "type": "text",
+      "value": "      ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 39,
+            "lineStart": 39,
+          },
+          "type": "text",
+          "value": "of",
+        },
+      ],
+      "data": {
+        "lineEnd": 39,
+        "lineStart": 39,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "keyword",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 39,
+            "lineStart": 39,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 39,
+        "lineStart": 39,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 39,
+        "lineStart": 39,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 39,
+            "lineStart": 39,
+          },
+          "type": "text",
+          "value": "[",
+        },
+      ],
+      "data": {
+        "lineEnd": 39,
+        "lineStart": 39,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 39,
+        "lineStart": 39,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 40,
+        "lineStart": 40,
+      },
+      "type": "text",
+      "value": "        ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 40,
+            "lineStart": 40,
+          },
+          "type": "text",
+          "value": "{",
+        },
+      ],
+      "data": {
+        "lineEnd": 40,
+        "lineStart": 40,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 40,
+        "lineStart": 40,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 41,
+        "lineStart": 41,
+      },
+      "type": "text",
+      "value": "          type",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 41,
+            "lineStart": 41,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 41,
+        "lineStart": 41,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 41,
+        "lineStart": 41,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 41,
+            "lineStart": 41,
+          },
+          "type": "text",
+          "value": "'authorReference'",
+        },
+      ],
+      "data": {
+        "lineEnd": 41,
+        "lineStart": 41,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 41,
+        "lineStart": 41,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 42,
+        "lineStart": 42,
+      },
+      "type": "text",
+      "value": "        ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 42,
+            "lineStart": 42,
+          },
+          "type": "text",
+          "value": "}",
+        },
+      ],
+      "data": {
+        "lineEnd": 42,
+        "lineStart": 42,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 42,
+        "lineStart": 42,
+      },
+      "type": "text",
+      "value": "  
+",
+    },
+    {
+      "data": {
+        "lineEnd": 43,
+        "lineStart": 43,
+      },
+      "type": "text",
+      "value": "      ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 43,
+            "lineStart": 43,
+          },
+          "type": "text",
+          "value": "]",
+        },
+      ],
+      "data": {
+        "lineEnd": 43,
+        "lineStart": 43,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 43,
+        "lineStart": 43,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 44,
+        "lineStart": 44,
+      },
+      "type": "text",
+      "value": "    ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 44,
+            "lineStart": 44,
+          },
+          "type": "text",
+          "value": "}",
+        },
+      ],
+      "data": {
+        "lineEnd": 44,
+        "lineStart": 44,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 44,
+        "lineStart": 44,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 45,
+        "lineStart": 45,
+      },
+      "type": "text",
+      "value": "    ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 45,
+            "lineStart": 45,
+          },
+          "type": "text",
+          "value": "// ...",
+        },
+      ],
+      "data": {
+        "lineEnd": 45,
+        "lineStart": 45,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "comment",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 45,
+        "lineStart": 45,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 46,
+        "lineStart": 46,
+      },
+      "type": "text",
+      "value": "  ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 46,
+            "lineStart": 46,
+          },
+          "type": "text",
+          "value": "]",
+        },
+      ],
+      "data": {
+        "lineEnd": 46,
+        "lineStart": 46,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 46,
+        "lineStart": 46,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 47,
+        "lineStart": 47,
+      },
+      "type": "text",
+      "value": "",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 47,
+            "lineStart": 47,
+          },
+          "type": "text",
+          "value": "}",
+        },
+      ],
+      "data": {
+        "lineEnd": 47,
+        "lineStart": 47,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+  ],
+  "type": "root",
+}
+`;
+
+exports[`does not crash on markers beyond the number of lines in source 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "data": {
+                "lineEnd": 1,
+                "lineStart": 1,
+              },
+              "type": "text",
+              "value": "import",
+            },
+          ],
+          "data": {
+            "lineEnd": 1,
+            "lineStart": 1,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "keyword",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "data": {
+            "lineEnd": 1,
+            "lineStart": 1,
+          },
+          "type": "text",
+          "value": " client ",
+        },
+        {
+          "children": [
+            {
+              "data": {
+                "lineEnd": 1,
+                "lineStart": 1,
+              },
+              "type": "text",
+              "value": "from",
+            },
+          ],
+          "data": {
+            "lineEnd": 1,
+            "lineStart": 1,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "keyword",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "data": {
+            "lineEnd": 1,
+            "lineStart": 1,
+          },
+          "type": "text",
+          "value": " ",
+        },
+        {
+          "children": [
+            {
+              "data": {
+                "lineEnd": 1,
+                "lineStart": 1,
+              },
+              "type": "text",
+              "value": "'part:@sanity/base/client'",
+            },
+          ],
+          "data": {
+            "lineEnd": 1,
+            "lineStart": 1,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "string",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "data": {
+            "lineEnd": 1,
+            "lineStart": 1,
+          },
+          "type": "text",
+          "value": "
+",
+        },
+      ],
+      "data": {
+        "isMarker": true,
+        "lineEnd": 1,
+        "lineStart": 1,
+      },
+      "properties": {
+        "className": "refractor-marker",
+      },
+      "tagName": "div",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 2,
+        "lineStart": 2,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 3,
+        "lineStart": 3,
+      },
+      "type": "text",
+      "value": "",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 3,
+            "lineStart": 3,
+          },
+          "type": "text",
+          "value": "export",
+        },
+      ],
+      "data": {
+        "lineEnd": 3,
+        "lineStart": 3,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "keyword",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 3,
+        "lineStart": 3,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 3,
+            "lineStart": 3,
+          },
+          "type": "text",
+          "value": "default",
+        },
+      ],
+      "data": {
+        "lineEnd": 3,
+        "lineStart": 3,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "keyword",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 3,
+        "lineStart": 3,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 3,
+            "lineStart": 3,
+          },
+          "type": "text",
+          "value": "{",
+        },
+      ],
+      "data": {
+        "lineEnd": 3,
+        "lineStart": 3,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 3,
+        "lineStart": 3,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 4,
+        "lineStart": 4,
+      },
+      "type": "text",
+      "value": "  name",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 4,
+            "lineStart": 4,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 4,
+        "lineStart": 4,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 4,
+        "lineStart": 4,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 4,
+            "lineStart": 4,
+          },
+          "type": "text",
+          "value": "'post'",
+        },
+      ],
+      "data": {
+        "lineEnd": 4,
+        "lineStart": 4,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 4,
+            "lineStart": 4,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 4,
+        "lineStart": 4,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 4,
+        "lineStart": 4,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 5,
+        "lineStart": 5,
+      },
+      "type": "text",
+      "value": "  type",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 5,
+            "lineStart": 5,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 5,
+        "lineStart": 5,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 5,
+        "lineStart": 5,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 5,
+            "lineStart": 5,
+          },
+          "type": "text",
+          "value": "'document'",
+        },
+      ],
+      "data": {
+        "lineEnd": 5,
+        "lineStart": 5,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 5,
+            "lineStart": 5,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 5,
+        "lineStart": 5,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 5,
+        "lineStart": 5,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 6,
+        "lineStart": 6,
+      },
+      "type": "text",
+      "value": "  title",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 6,
+            "lineStart": 6,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 6,
+        "lineStart": 6,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 6,
+        "lineStart": 6,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 6,
+            "lineStart": 6,
+          },
+          "type": "text",
+          "value": "'Blog post'",
+        },
+      ],
+      "data": {
+        "lineEnd": 6,
+        "lineStart": 6,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 6,
+            "lineStart": 6,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 6,
+        "lineStart": 6,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 6,
+        "lineStart": 6,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "type": "text",
+      "value": "  ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 7,
+            "lineStart": 7,
+          },
+          "type": "text",
+          "value": "initialValue",
+        },
+      ],
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "function-variable",
+          "function",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 7,
+            "lineStart": 7,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 7,
+            "lineStart": 7,
+          },
+          "type": "text",
+          "value": "async",
+        },
+      ],
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "keyword",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 7,
+            "lineStart": 7,
+          },
+          "type": "text",
+          "value": "(",
+        },
+      ],
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 7,
+            "lineStart": 7,
+          },
+          "type": "text",
+          "value": ")",
+        },
+      ],
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 7,
+            "lineStart": 7,
+          },
+          "type": "text",
+          "value": "=>",
+        },
+      ],
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 7,
+            "lineStart": 7,
+          },
+          "type": "text",
+          "value": "(",
+        },
+      ],
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 7,
+            "lineStart": 7,
+          },
+          "type": "text",
+          "value": "{",
+        },
+      ],
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 7,
+        "lineStart": 7,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "type": "text",
+      "value": "    publishedAt",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 8,
+            "lineStart": 8,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 8,
+            "lineStart": 8,
+          },
+          "type": "text",
+          "value": "new",
+        },
+      ],
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "keyword",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 8,
+            "lineStart": 8,
+          },
+          "type": "text",
+          "value": "Date",
+        },
+      ],
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "class-name",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 8,
+            "lineStart": 8,
+          },
+          "type": "text",
+          "value": "(",
+        },
+      ],
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 8,
+            "lineStart": 8,
+          },
+          "type": "text",
+          "value": ")",
+        },
+      ],
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 8,
+            "lineStart": 8,
+          },
+          "type": "text",
+          "value": ".",
+        },
+      ],
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 8,
+            "lineStart": 8,
+          },
+          "type": "text",
+          "value": "toISOString",
+        },
+      ],
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "function",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 8,
+            "lineStart": 8,
+          },
+          "type": "text",
+          "value": "(",
+        },
+      ],
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 8,
+            "lineStart": 8,
+          },
+          "type": "text",
+          "value": ")",
+        },
+      ],
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 8,
+            "lineStart": 8,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 8,
+        "lineStart": 8,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 9,
+            "lineStart": 9,
+          },
+          "type": "text",
+          "value": "    authors",
+        },
+        {
+          "children": [
+            {
+              "data": {
+                "lineEnd": 9,
+                "lineStart": 9,
+              },
+              "type": "text",
+              "value": ":",
+            },
+          ],
+          "data": {
+            "lineEnd": 9,
+            "lineStart": 9,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "operator",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "data": {
+            "lineEnd": 9,
+            "lineStart": 9,
+          },
+          "type": "text",
+          "value": " ",
+        },
+        {
+          "children": [
+            {
+              "data": {
+                "lineEnd": 9,
+                "lineStart": 9,
+              },
+              "type": "text",
+              "value": "await",
+            },
+          ],
+          "data": {
+            "lineEnd": 9,
+            "lineStart": 9,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "keyword",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "data": {
+            "lineEnd": 9,
+            "lineStart": 9,
+          },
+          "type": "text",
+          "value": " client",
+        },
+        {
+          "children": [
+            {
+              "data": {
+                "lineEnd": 9,
+                "lineStart": 9,
+              },
+              "type": "text",
+              "value": ".",
+            },
+          ],
+          "data": {
+            "lineEnd": 9,
+            "lineStart": 9,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "punctuation",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "data": {
+                "lineEnd": 9,
+                "lineStart": 9,
+              },
+              "type": "text",
+              "value": "fetch",
+            },
+          ],
+          "data": {
+            "lineEnd": 9,
+            "lineStart": 9,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "function",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "data": {
+                "lineEnd": 9,
+                "lineStart": 9,
+              },
+              "type": "text",
+              "value": "(",
+            },
+          ],
+          "data": {
+            "lineEnd": 9,
+            "lineStart": 9,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "punctuation",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+      ],
+      "data": {
+        "isMarker": true,
+        "lineEnd": 9,
+        "lineStart": 9,
+      },
+      "properties": {
+        "className": "refractor-marker",
+      },
+      "tagName": "div",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "data": {
+                    "lineEnd": 9,
+                    "lineStart": 9,
+                  },
+                  "type": "text",
+                  "value": "\`",
+                },
+              ],
+              "data": {
+                "lineEnd": 9,
+                "lineStart": 9,
+              },
+              "properties": {
+                "className": [
+                  "token",
+                  "template-punctuation",
+                  "string",
+                ],
+              },
+              "tagName": "span",
+              "type": "element",
+            },
+            {
+              "children": [
+                {
+                  "data": {
+                    "lineEnd": 9,
+                    "lineStart": 9,
+                  },
+                  "type": "text",
+                  "value": "
+",
+                },
+              ],
+              "data": {
+                "lineEnd": 17,
+                "lineStart": 17,
+              },
+              "properties": {
+                "className": [
+                  "token",
+                  "string",
+                ],
+              },
+              "tagName": "span",
+              "type": "element",
+            },
+          ],
+          "data": {
+            "lineEnd": 17,
+            "lineStart": 17,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "template-string",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "data": {
+                    "lineEnd": 10,
+                    "lineStart": 10,
+                  },
+                  "type": "text",
+                  "value": "",
+                },
+                {
+                  "data": {
+                    "lineEnd": 10,
+                    "lineStart": 10,
+                  },
+                  "type": "text",
+                  "value": "      *[_type == "author" && "marketing" in responsbilities]{
+",
+                },
+              ],
+              "data": {
+                "lineEnd": 17,
+                "lineStart": 17,
+              },
+              "properties": {
+                "className": [
+                  "token",
+                  "string",
+                ],
+              },
+              "tagName": "span",
+              "type": "element",
+            },
+          ],
+          "data": {
+            "lineEnd": 17,
+            "lineStart": 17,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "template-string",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "data": {
+                    "lineEnd": 11,
+                    "lineStart": 11,
+                  },
+                  "type": "text",
+                  "value": "",
+                },
+                {
+                  "data": {
+                    "lineEnd": 11,
+                    "lineStart": 11,
+                  },
+                  "type": "text",
+                  "value": "        "_type": "authorReference",
+",
+                },
+              ],
+              "data": {
+                "lineEnd": 17,
+                "lineStart": 17,
+              },
+              "properties": {
+                "className": [
+                  "token",
+                  "string",
+                ],
+              },
+              "tagName": "span",
+              "type": "element",
+            },
+          ],
+          "data": {
+            "lineEnd": 17,
+            "lineStart": 17,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "template-string",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "data": {
+                    "lineEnd": 12,
+                    "lineStart": 12,
+                  },
+                  "type": "text",
+                  "value": "",
+                },
+                {
+                  "data": {
+                    "lineEnd": 12,
+                    "lineStart": 12,
+                  },
+                  "type": "text",
+                  "value": "        "author": {
+",
+                },
+              ],
+              "data": {
+                "lineEnd": 17,
+                "lineStart": 17,
+              },
+              "properties": {
+                "className": [
+                  "token",
+                  "string",
+                ],
+              },
+              "tagName": "span",
+              "type": "element",
+            },
+          ],
+          "data": {
+            "lineEnd": 17,
+            "lineStart": 17,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "template-string",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "data": {
+                    "lineEnd": 13,
+                    "lineStart": 13,
+                  },
+                  "type": "text",
+                  "value": "",
+                },
+                {
+                  "data": {
+                    "lineEnd": 13,
+                    "lineStart": 13,
+                  },
+                  "type": "text",
+                  "value": "          "_type": "reference",
+",
+                },
+              ],
+              "data": {
+                "lineEnd": 17,
+                "lineStart": 17,
+              },
+              "properties": {
+                "className": [
+                  "token",
+                  "string",
+                ],
+              },
+              "tagName": "span",
+              "type": "element",
+            },
+          ],
+          "data": {
+            "lineEnd": 17,
+            "lineStart": 17,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "template-string",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "data": {
+                    "lineEnd": 14,
+                    "lineStart": 14,
+                  },
+                  "type": "text",
+                  "value": "",
+                },
+                {
+                  "data": {
+                    "lineEnd": 14,
+                    "lineStart": 14,
+                  },
+                  "type": "text",
+                  "value": "          "_ref": _id
+",
+                },
+              ],
+              "data": {
+                "lineEnd": 17,
+                "lineStart": 17,
+              },
+              "properties": {
+                "className": [
+                  "token",
+                  "string",
+                ],
+              },
+              "tagName": "span",
+              "type": "element",
+            },
+          ],
+          "data": {
+            "lineEnd": 17,
+            "lineStart": 17,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "template-string",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "data": {
+                    "lineEnd": 15,
+                    "lineStart": 15,
+                  },
+                  "type": "text",
+                  "value": "",
+                },
+                {
+                  "data": {
+                    "lineEnd": 15,
+                    "lineStart": 15,
+                  },
+                  "type": "text",
+                  "value": "        }
+",
+                },
+              ],
+              "data": {
+                "lineEnd": 17,
+                "lineStart": 17,
+              },
+              "properties": {
+                "className": [
+                  "token",
+                  "string",
+                ],
+              },
+              "tagName": "span",
+              "type": "element",
+            },
+          ],
+          "data": {
+            "lineEnd": 17,
+            "lineStart": 17,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "template-string",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "data": {
+                    "lineEnd": 16,
+                    "lineStart": 16,
+                  },
+                  "type": "text",
+                  "value": "",
+                },
+                {
+                  "data": {
+                    "lineEnd": 16,
+                    "lineStart": 16,
+                  },
+                  "type": "text",
+                  "value": "      }
+",
+                },
+              ],
+              "data": {
+                "lineEnd": 17,
+                "lineStart": 17,
+              },
+              "properties": {
+                "className": [
+                  "token",
+                  "string",
+                ],
+              },
+              "tagName": "span",
+              "type": "element",
+            },
+          ],
+          "data": {
+            "lineEnd": 17,
+            "lineStart": 17,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "template-string",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "data": {
+                    "lineEnd": 17,
+                    "lineStart": 17,
+                  },
+                  "type": "text",
+                  "value": "",
+                },
+                {
+                  "data": {
+                    "lineEnd": 17,
+                    "lineStart": 17,
+                  },
+                  "type": "text",
+                  "value": "    ",
+                },
+              ],
+              "data": {
+                "lineEnd": 17,
+                "lineStart": 17,
+              },
+              "properties": {
+                "className": [
+                  "token",
+                  "string",
+                ],
+              },
+              "tagName": "span",
+              "type": "element",
+            },
+            {
+              "children": [
+                {
+                  "data": {
+                    "lineEnd": 17,
+                    "lineStart": 17,
+                  },
+                  "type": "text",
+                  "value": "\`",
+                },
+              ],
+              "data": {
+                "lineEnd": 17,
+                "lineStart": 17,
+              },
+              "properties": {
+                "className": [
+                  "token",
+                  "template-punctuation",
+                  "string",
+                ],
+              },
+              "tagName": "span",
+              "type": "element",
+            },
+          ],
+          "data": {
+            "lineEnd": 17,
+            "lineStart": 17,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "template-string",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "data": {
+                "lineEnd": 17,
+                "lineStart": 17,
+              },
+              "type": "text",
+              "value": ")",
+            },
+          ],
+          "data": {
+            "lineEnd": 17,
+            "lineStart": 17,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "punctuation",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "data": {
+            "lineEnd": 17,
+            "lineStart": 17,
+          },
+          "type": "text",
+          "value": "
+",
+        },
+      ],
+      "data": {
+        "isMarker": true,
+        "lineEnd": 17,
+        "lineStart": 17,
+      },
+      "properties": {
+        "className": "refractor-marker",
+      },
+      "tagName": "div",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 18,
+            "lineStart": 18,
+          },
+          "type": "text",
+          "value": "  ",
+        },
+        {
+          "children": [
+            {
+              "data": {
+                "lineEnd": 18,
+                "lineStart": 18,
+              },
+              "type": "text",
+              "value": "}",
+            },
+          ],
+          "data": {
+            "lineEnd": 18,
+            "lineStart": 18,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "punctuation",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "data": {
+                "lineEnd": 18,
+                "lineStart": 18,
+              },
+              "type": "text",
+              "value": ")",
+            },
+          ],
+          "data": {
+            "lineEnd": 18,
+            "lineStart": 18,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "punctuation",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "children": [
+            {
+              "data": {
+                "lineEnd": 18,
+                "lineStart": 18,
+              },
+              "type": "text",
+              "value": ",",
+            },
+          ],
+          "data": {
+            "lineEnd": 18,
+            "lineStart": 18,
+          },
+          "properties": {
+            "className": [
+              "token",
+              "punctuation",
+            ],
+          },
+          "tagName": "span",
+          "type": "element",
+        },
+        {
+          "data": {
+            "lineEnd": 18,
+            "lineStart": 18,
+          },
+          "type": "text",
+          "value": "
+",
+        },
+      ],
+      "data": {
+        "isMarker": true,
+        "lineEnd": 18,
+        "lineStart": 18,
+      },
+      "properties": {
+        "className": "refractor-marker",
+      },
+      "tagName": "div",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 19,
+        "lineStart": 19,
+      },
+      "type": "text",
+      "value": "  fields",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 19,
+            "lineStart": 19,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 19,
+        "lineStart": 19,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 19,
+        "lineStart": 19,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 19,
+            "lineStart": 19,
+          },
+          "type": "text",
+          "value": "[",
+        },
+      ],
+      "data": {
+        "lineEnd": 19,
+        "lineStart": 19,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 19,
+        "lineStart": 19,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 20,
+        "lineStart": 20,
+      },
+      "type": "text",
+      "value": "    ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 20,
+            "lineStart": 20,
+          },
+          "type": "text",
+          "value": "{",
+        },
+      ],
+      "data": {
+        "lineEnd": 20,
+        "lineStart": 20,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 20,
+        "lineStart": 20,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 21,
+        "lineStart": 21,
+      },
+      "type": "text",
+      "value": "      name",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 21,
+            "lineStart": 21,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 21,
+        "lineStart": 21,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 21,
+        "lineStart": 21,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 21,
+            "lineStart": 21,
+          },
+          "type": "text",
+          "value": "'title'",
+        },
+      ],
+      "data": {
+        "lineEnd": 21,
+        "lineStart": 21,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 21,
+            "lineStart": 21,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 21,
+        "lineStart": 21,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 21,
+        "lineStart": 21,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 22,
+        "lineStart": 22,
+      },
+      "type": "text",
+      "value": "      type",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 22,
+            "lineStart": 22,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 22,
+        "lineStart": 22,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 22,
+        "lineStart": 22,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 22,
+            "lineStart": 22,
+          },
+          "type": "text",
+          "value": "'string'",
+        },
+      ],
+      "data": {
+        "lineEnd": 22,
+        "lineStart": 22,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 22,
+            "lineStart": 22,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 22,
+        "lineStart": 22,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 22,
+        "lineStart": 22,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 23,
+        "lineStart": 23,
+      },
+      "type": "text",
+      "value": "      title",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 23,
+            "lineStart": 23,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 23,
+        "lineStart": 23,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 23,
+        "lineStart": 23,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 23,
+            "lineStart": 23,
+          },
+          "type": "text",
+          "value": "'Title'",
+        },
+      ],
+      "data": {
+        "lineEnd": 23,
+        "lineStart": 23,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 23,
+        "lineStart": 23,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 24,
+        "lineStart": 24,
+      },
+      "type": "text",
+      "value": "    ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 24,
+            "lineStart": 24,
+          },
+          "type": "text",
+          "value": "}",
+        },
+      ],
+      "data": {
+        "lineEnd": 24,
+        "lineStart": 24,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 24,
+            "lineStart": 24,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 24,
+        "lineStart": 24,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 24,
+        "lineStart": 24,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 25,
+        "lineStart": 25,
+      },
+      "type": "text",
+      "value": "    ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 25,
+            "lineStart": 25,
+          },
+          "type": "text",
+          "value": "{",
+        },
+      ],
+      "data": {
+        "lineEnd": 25,
+        "lineStart": 25,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 25,
+        "lineStart": 25,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 26,
+        "lineStart": 26,
+      },
+      "type": "text",
+      "value": "      name",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 26,
+            "lineStart": 26,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 26,
+        "lineStart": 26,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 26,
+        "lineStart": 26,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 26,
+            "lineStart": 26,
+          },
+          "type": "text",
+          "value": "'slug'",
+        },
+      ],
+      "data": {
+        "lineEnd": 26,
+        "lineStart": 26,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 26,
+            "lineStart": 26,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 26,
+        "lineStart": 26,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 26,
+        "lineStart": 26,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 27,
+        "lineStart": 27,
+      },
+      "type": "text",
+      "value": "      type",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 27,
+            "lineStart": 27,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 27,
+        "lineStart": 27,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 27,
+        "lineStart": 27,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 27,
+            "lineStart": 27,
+          },
+          "type": "text",
+          "value": "'slug'",
+        },
+      ],
+      "data": {
+        "lineEnd": 27,
+        "lineStart": 27,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 27,
+            "lineStart": 27,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 27,
+        "lineStart": 27,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 27,
+        "lineStart": 27,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 28,
+        "lineStart": 28,
+      },
+      "type": "text",
+      "value": "      title",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 28,
+            "lineStart": 28,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 28,
+        "lineStart": 28,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 28,
+        "lineStart": 28,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 28,
+            "lineStart": 28,
+          },
+          "type": "text",
+          "value": "'Slug'",
+        },
+      ],
+      "data": {
+        "lineEnd": 28,
+        "lineStart": 28,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 28,
+        "lineStart": 28,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 29,
+        "lineStart": 29,
+      },
+      "type": "text",
+      "value": "    ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 29,
+            "lineStart": 29,
+          },
+          "type": "text",
+          "value": "}",
+        },
+      ],
+      "data": {
+        "lineEnd": 29,
+        "lineStart": 29,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 29,
+            "lineStart": 29,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 29,
+        "lineStart": 29,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 29,
+        "lineStart": 29,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 30,
+        "lineStart": 30,
+      },
+      "type": "text",
+      "value": "    ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 30,
+            "lineStart": 30,
+          },
+          "type": "text",
+          "value": "{",
+        },
+      ],
+      "data": {
+        "lineEnd": 30,
+        "lineStart": 30,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 30,
+        "lineStart": 30,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 31,
+        "lineStart": 31,
+      },
+      "type": "text",
+      "value": "      name",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 31,
+            "lineStart": 31,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 31,
+        "lineStart": 31,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 31,
+        "lineStart": 31,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 31,
+            "lineStart": 31,
+          },
+          "type": "text",
+          "value": "'publishedAt'",
+        },
+      ],
+      "data": {
+        "lineEnd": 31,
+        "lineStart": 31,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 31,
+            "lineStart": 31,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 31,
+        "lineStart": 31,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 31,
+        "lineStart": 31,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 32,
+        "lineStart": 32,
+      },
+      "type": "text",
+      "value": "      type",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 32,
+            "lineStart": 32,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 32,
+        "lineStart": 32,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 32,
+        "lineStart": 32,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 32,
+            "lineStart": 32,
+          },
+          "type": "text",
+          "value": "'datetime'",
+        },
+      ],
+      "data": {
+        "lineEnd": 32,
+        "lineStart": 32,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 32,
+            "lineStart": 32,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 32,
+        "lineStart": 32,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 32,
+        "lineStart": 32,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 33,
+        "lineStart": 33,
+      },
+      "type": "text",
+      "value": "      title",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 33,
+            "lineStart": 33,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 33,
+        "lineStart": 33,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 33,
+        "lineStart": 33,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 33,
+            "lineStart": 33,
+          },
+          "type": "text",
+          "value": "'Published at'",
+        },
+      ],
+      "data": {
+        "lineEnd": 33,
+        "lineStart": 33,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 33,
+        "lineStart": 33,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 34,
+        "lineStart": 34,
+      },
+      "type": "text",
+      "value": "    ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 34,
+            "lineStart": 34,
+          },
+          "type": "text",
+          "value": "}",
+        },
+      ],
+      "data": {
+        "lineEnd": 34,
+        "lineStart": 34,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 34,
+            "lineStart": 34,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 34,
+        "lineStart": 34,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 34,
+        "lineStart": 34,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 35,
+        "lineStart": 35,
+      },
+      "type": "text",
+      "value": "    ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 35,
+            "lineStart": 35,
+          },
+          "type": "text",
+          "value": "{",
+        },
+      ],
+      "data": {
+        "lineEnd": 35,
+        "lineStart": 35,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 35,
+        "lineStart": 35,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 36,
+        "lineStart": 36,
+      },
+      "type": "text",
+      "value": "      name",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 36,
+            "lineStart": 36,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 36,
+        "lineStart": 36,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 36,
+        "lineStart": 36,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 36,
+            "lineStart": 36,
+          },
+          "type": "text",
+          "value": "'authors'",
+        },
+      ],
+      "data": {
+        "lineEnd": 36,
+        "lineStart": 36,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 36,
+            "lineStart": 36,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 36,
+        "lineStart": 36,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 36,
+        "lineStart": 36,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 37,
+        "lineStart": 37,
+      },
+      "type": "text",
+      "value": "      type",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 37,
+            "lineStart": 37,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 37,
+        "lineStart": 37,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 37,
+        "lineStart": 37,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 37,
+            "lineStart": 37,
+          },
+          "type": "text",
+          "value": "'array'",
+        },
+      ],
+      "data": {
+        "lineEnd": 37,
+        "lineStart": 37,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 37,
+            "lineStart": 37,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 37,
+        "lineStart": 37,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 37,
+        "lineStart": 37,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 38,
+        "lineStart": 38,
+      },
+      "type": "text",
+      "value": "      title",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 38,
+            "lineStart": 38,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 38,
+        "lineStart": 38,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 38,
+        "lineStart": 38,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 38,
+            "lineStart": 38,
+          },
+          "type": "text",
+          "value": "'Authors'",
+        },
+      ],
+      "data": {
+        "lineEnd": 38,
+        "lineStart": 38,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 38,
+            "lineStart": 38,
+          },
+          "type": "text",
+          "value": ",",
+        },
+      ],
+      "data": {
+        "lineEnd": 38,
+        "lineStart": 38,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 38,
+        "lineStart": 38,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 39,
+        "lineStart": 39,
+      },
+      "type": "text",
+      "value": "      ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 39,
+            "lineStart": 39,
+          },
+          "type": "text",
+          "value": "of",
+        },
+      ],
+      "data": {
+        "lineEnd": 39,
+        "lineStart": 39,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "keyword",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 39,
+            "lineStart": 39,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 39,
+        "lineStart": 39,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 39,
+        "lineStart": 39,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 39,
+            "lineStart": 39,
+          },
+          "type": "text",
+          "value": "[",
+        },
+      ],
+      "data": {
+        "lineEnd": 39,
+        "lineStart": 39,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 39,
+        "lineStart": 39,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 40,
+        "lineStart": 40,
+      },
+      "type": "text",
+      "value": "        ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 40,
+            "lineStart": 40,
+          },
+          "type": "text",
+          "value": "{",
+        },
+      ],
+      "data": {
+        "lineEnd": 40,
+        "lineStart": 40,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 40,
+        "lineStart": 40,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 41,
+        "lineStart": 41,
+      },
+      "type": "text",
+      "value": "          type",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 41,
+            "lineStart": 41,
+          },
+          "type": "text",
+          "value": ":",
+        },
+      ],
+      "data": {
+        "lineEnd": 41,
+        "lineStart": 41,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "operator",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 41,
+        "lineStart": 41,
+      },
+      "type": "text",
+      "value": " ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 41,
+            "lineStart": 41,
+          },
+          "type": "text",
+          "value": "'authorReference'",
+        },
+      ],
+      "data": {
+        "lineEnd": 41,
+        "lineStart": 41,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "string",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 41,
+        "lineStart": 41,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 42,
+        "lineStart": 42,
+      },
+      "type": "text",
+      "value": "        ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 42,
+            "lineStart": 42,
+          },
+          "type": "text",
+          "value": "}",
+        },
+      ],
+      "data": {
+        "lineEnd": 42,
+        "lineStart": 42,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 42,
+        "lineStart": 42,
+      },
+      "type": "text",
+      "value": "  
+",
+    },
+    {
+      "data": {
+        "lineEnd": 43,
+        "lineStart": 43,
+      },
+      "type": "text",
+      "value": "      ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 43,
+            "lineStart": 43,
+          },
+          "type": "text",
+          "value": "]",
+        },
+      ],
+      "data": {
+        "lineEnd": 43,
+        "lineStart": 43,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 43,
+        "lineStart": 43,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 44,
+        "lineStart": 44,
+      },
+      "type": "text",
+      "value": "    ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 44,
+            "lineStart": 44,
+          },
+          "type": "text",
+          "value": "}",
+        },
+      ],
+      "data": {
+        "lineEnd": 44,
+        "lineStart": 44,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 44,
+        "lineStart": 44,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 45,
+        "lineStart": 45,
+      },
+      "type": "text",
+      "value": "    ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 45,
+            "lineStart": 45,
+          },
+          "type": "text",
+          "value": "// ...",
+        },
+      ],
+      "data": {
+        "lineEnd": 45,
+        "lineStart": 45,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "comment",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 45,
+        "lineStart": 45,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 46,
+        "lineStart": 46,
+      },
+      "type": "text",
+      "value": "  ",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 46,
+            "lineStart": 46,
+          },
+          "type": "text",
+          "value": "]",
+        },
+      ],
+      "data": {
+        "lineEnd": 46,
+        "lineStart": 46,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+    {
+      "data": {
+        "lineEnd": 46,
+        "lineStart": 46,
+      },
+      "type": "text",
+      "value": "
+",
+    },
+    {
+      "data": {
+        "lineEnd": 47,
+        "lineStart": 47,
+      },
+      "type": "text",
+      "value": "",
+    },
+    {
+      "children": [
+        {
+          "data": {
+            "lineEnd": 47,
+            "lineStart": 47,
+          },
+          "type": "text",
+          "value": "}",
+        },
+      ],
+      "data": {
+        "lineEnd": 47,
+        "lineStart": 47,
+      },
+      "properties": {
+        "className": [
+          "token",
+          "punctuation",
+        ],
+      },
+      "tagName": "span",
+      "type": "element",
+    },
+  ],
+  "type": "root",
+}
+`;

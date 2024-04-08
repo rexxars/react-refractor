@@ -2,19 +2,35 @@
   "name": "react-refractor",
   "version": "2.1.7",
   "description": "Super-thin React wrapper for refractor (Syntax highlighting using VDOM)",
-  "main": "lib/Refractor.js",
-  "umd": "umd/main.min.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "source": "./src/index.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "types": "./dist/index.d.ts",
+  "browserslist": [
+    "fully supports es6-module",
+    "node 18"
+  ],
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
-    "build": "npm run build:es5 && npm run build:umd && npm run build:demo:prod",
-    "build:es5": "NODE_ENV=production babel --source-maps --delete-dir-on-start --copy-files -d lib/ src/",
-    "build:umd": "NODE_ENV=production webpack --mode=production --entry=./src/Refractor.js --output-path ./umd",
-    "build:demo": "webpack --config webpack.config.demo.js",
-    "build:demo:prod": "NODE_ENV=production webpack --mode=production --config webpack.config.demo.js",
-    "coverage": "jest --coverage",
+    "build": "npm run clean && pkg-utils build --strict && npm run build:demo",
+    "build:demo": "vite build",
+    "clean": "rimraf dist",
+    "coverage": "vitest --coverage",
+    "dev": "vite demo",
     "lint": "eslint .",
     "prepublishOnly": "npm test && npm run build",
     "posttest": "npm run lint",
-    "test": "jest"
+    "test": "vitest && pkg-utils --strict"
   },
   "repository": {
     "type": "git",
@@ -34,30 +50,37 @@
   },
   "homepage": "https://github.com/rexxars/react-refractor#readme",
   "dependencies": {
-    "prop-types": "^15.8.1",
-    "refractor": "^3.6.0",
-    "unist-util-filter": "^2.0.2",
-    "unist-util-visit-parents": "^3.0.2"
+    "refractor": "^4.8.1",
+    "unist-util-filter": "^5.0.1",
+    "unist-util-visit-parents": "^6.0.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.17.6",
-    "@babel/core": "^7.17.9",
-    "@babel/preset-env": "^7.16.11",
-    "babel-loader": "^8.2.4",
-    "eslint": "^8.13.0",
-    "eslint-config-prettier": "^8.5.0",
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@sanity/pkg-utils": "^5.1.12",
+    "@sanity/semantic-release-preset": "^4.0.2",
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.24",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
     "eslint-config-sanity": "^6.0.0",
-    "jest": "^27.5.1",
-    "prettier": "^2.6.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "webpack": "^5.72.0",
-    "webpack-cli": "^4.9.2"
+    "prettier": "^3.2.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "rimraf": "^5.0.5",
+    "semantic-release": "^23.0.7",
+    "typescript": "5.4.2",
+    "vite": "^5.2.8",
+    "vitest": "^1.4.0"
   },
   "peerDependencies": {
-    "react": ">=15.0.0"
+    "react": ">=18.0.0"
   },
-  "jest": {
-    "verbose": true
+  "engines": {
+    "node": ">=18.0.0"
   }
 }

@@ -1,11 +1,11 @@
 {
-  "extends": ["sanity", "prettier"],
-  "env": {"node": true, "browser": true},
+  "extends": ["sanity", "sanity/typescript", "prettier"],
   "parserOptions": {
-    "ecmaVersion": 2018
+    "ecmaFeatures": {
+      "modules": true,
+    },
+    "ecmaVersion": 9,
+    "sourceType": "module",
   },
-  "rules": {
-    "complexity": ["error", {"max": 15}],
-    "no-process-env": "off"
-  }
+  "ignorePatterns": ["lib/**/"],
 }

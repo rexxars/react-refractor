@@ -1,17 +1,19 @@
-const React = require('react')
-const ReactDOM = require('react-dom/server')
-const js = require('refractor/lang/javascript')
-const haml = require('refractor/lang/haml')
-const Refractor = require('../src/Refractor')
+import ReactDOM from 'react-dom/server'
+import haml from 'refractor/lang/haml'
+import js from 'refractor/lang/javascript'
+import {beforeAll, expect, test} from 'vitest'
+
+import {Refractor, RefractorProps, registerLanguage} from '../src'
+import {createElement} from 'react'
 
 beforeAll(() => {
-  Refractor.registerLanguage(js)
-  Refractor.registerLanguage(haml)
+  registerLanguage(js)
+  registerLanguage(haml)
 })
 
 test('should render empty if no code is given', () => {
   expect(render({value: '', language: 'js'}, {withWrapper: true})).toBe(
-    '<pre class="refractor language-js"><code class="language-js"></code></pre>'
+    '<pre class="refractor language-js"><code class="language-js"></code></pre>',
   )
 })
 
@@ -22,13 +24,13 @@ test('should render simple JS snippet correct', () => {
       '<span class="token string">&quot;use strict&quot;</span>' +
       '<span class="token punctuation">;</span>' +
       '</code>' +
-      '</pre>'
+      '</pre>',
   )
 })
 
 test('should use the specified language', () => {
   expect(render({value: '', language: 'haml'}, {withWrapper: true})).toBe(
-    '<pre class="refractor language-haml"><code class="language-haml"></code></pre>'
+    '<pre class="refractor language-haml"><code class="language-haml"></code></pre>',
   )
 })
 
@@ -36,8 +38,8 @@ test('should be able to render inline', () => {
   expect(
     render(
       {value: 'var foo = "bar"', language: 'js', inline: true, className: 'moop'},
-      {withWrapper: true}
-    )
+      {withWrapper: true},
+    ),
   ).toMatchSnapshot()
 })
 
@@ -64,13 +66,15 @@ test('does not crash on markers beyond the number of lines in source', () => {
   expect(render({value: code, markers, language})).toMatchSnapshot()
 })
 
-function render(props, options) {
-  const opts = options || {}
-  const html = opts.reactAttrs
-    ? ReactDOM.renderToString(React.createElement(Refractor, props))
-    : ReactDOM.renderToStaticMarkup(React.createElement(Refractor, props))
+function render(
+  props: RefractorProps,
+  options: {withWrapper?: boolean; reactAttrs?: boolean} = {},
+) {
+  const html = options.reactAttrs
+    ? ReactDOM.renderToString(createElement(Refractor, props))
+    : ReactDOM.renderToStaticMarkup(createElement(Refractor, props))
 
-  if (!opts.withWrapper) {
+  if (!options.withWrapper) {
     return html.replace(/.*?<code.*?>([\s\S]*)<\/code>.*/g, '$1')
   }
 

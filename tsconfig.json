@@ -1,0 +1,30 @@
+{
+  "include": ["./src", "./test"],
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "./dist",
+
+    "lib": ["dom", "es2020", "ES2022.Error"],
+
+    "jsx": "react-jsx",
+    "allowImportingTsExtensions": true,
+    // Output settings
+    "target": "ESNext",
+    "module": "Preserve",
+    "moduleDetection": "force",
+    "allowSyntheticDefaultImports": true,
+
+    // Don't emit anything by default, emit is done by `@sanity/pkg-utils` during build
+    "noEmit": true,
+
+    // Settings
+    "preserveConstEnums": true,
+    "useUnknownInCatchVariables": false,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // Strict type-checking
+    "strict": true,
+    "skipLibCheck": true
+  }
+}

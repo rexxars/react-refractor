@@ -36,5 +36,5 @@ node_modules
 demo/js/demo.min.js.map
 
 # Compiled output
-umd/*
-lib/*
+demo/dist/*
+dist/*

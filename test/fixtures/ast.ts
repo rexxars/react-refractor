@@ -1,4 +1,6 @@
-module.exports = [
+import type {RefractorElement, Text} from 'refractor'
+
+export const astFixtures: Array<RefractorElement | Text> = [
   {
     type: 'element',
     tagName: 'span',
