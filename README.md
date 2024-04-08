@@ -60,6 +60,7 @@ Note that when using the `markers` feature, there is an additional class name ca
 | `value`     | The code snippet to syntax highlight                                                  |
 | `inline`    | Whether code should be displayed inline (no `<pre>` tag, sets `display: inline`)      |
 | `markers`   | Array of lines to mark. See section on markers below                                  |
+| `plainText` | Set to `true` to skip highlighting and render the passed value as-is                  |
 
 ## Differences to Prism
 

@@ -21,6 +21,11 @@ export function Refractor(props: RefractorProps) {
     codeProps.className = className
   }
 
+  if (props.plainText) {
+    const code = <code {...codeProps}>{props.value}</code>
+    return props.inline ? code : <pre className={preClass}>{code}</pre>
+  }
+
   let ast = fract.highlight(props.value, props.language)
   if (props.markers && props.markers.length > 0) {
     ast = addMarkers(ast, {markers: props.markers})
