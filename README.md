@@ -49,7 +49,7 @@ registerLanguage(docker)
 
 Stylesheets are **not** automatically handled for you - but there is [a bunch of premade themes](https://github.com/PrismJS/prism/tree/gh-pages/themes) for Prism which you can simply drop in and they'll "just work". You can either grab these from the source, of pull them in using a CSS loader - whatever works best for you. You can also download a customized stylesheet from Prism's [download customizer](http://prismjs.com/download.html).
 
-Note that when using the `markers` feature, there is an additional class name called `hljs-marker` which is not defined by highlight js as it's not a part of its feature set. You can either set it yourself, or you can explicitly set class names on markers.
+Note that when using the `markers` feature, there is an additional class name called `refractor-marker` which is not defined by Prism, as it's not a part of its feature set. You can either set it yourself, or you can explicitly set class names on markers.
 
 ## Props
 
