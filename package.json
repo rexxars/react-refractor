@@ -11,6 +11,7 @@
     },
     "./package.json": "./package.json"
   },
+  "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "browserslist": [
     "fully supports es6-module",
@@ -58,7 +59,7 @@
     "@babel/cli": "^7.24.1",
     "@babel/core": "^7.24.4",
     "@babel/preset-env": "^7.24.4",
-    "@sanity/pkg-utils": "^5.1.12",
+    "@sanity/pkg-utils": "^6.1.0",
     "@sanity/semantic-release-preset": "^4.0.2",
     "@types/react": "^18.2.74",
     "@types/react-dom": "^18.2.24",
