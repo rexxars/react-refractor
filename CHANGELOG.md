@@ -5,6 +5,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.1](https://github.com/rexxars/react-refractor/compare/v3.1.0...v3.1.1) (2024-04-09)
+
+### Bug Fixes
+
+- add `main` entrypoint for better ecosystem compatibility ([2a4e230](https://github.com/rexxars/react-refractor/commit/2a4e230d0996aacf540273aa59795580729e0f9f))
+
 ## [3.1.0](https://github.com/rexxars/react-refractor/compare/v3.0.0...v3.1.0) (2024-04-08)
 
 ### Features
