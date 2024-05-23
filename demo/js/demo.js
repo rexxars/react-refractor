@@ -1,5 +1,5 @@
 const React = require('react')
-const ReactDOM = require('react-dom')
+const ReactDOM = require('react-dom/client')
 const Refractor = require('../../src/Refractor')
 const h = React.createElement
 
@@ -79,7 +79,8 @@ class ReactRefractorDemo extends React.Component {
   }
 }
 
-ReactDOM.render(h(ReactRefractorDemo), document.getElementById('root'))
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(h(ReactRefractorDemo))
 
 // Hiding this ugliness down here.
 function getDefaultValue() {
