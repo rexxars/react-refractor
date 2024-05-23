@@ -1,5 +1,4 @@
 const React = require('react')
-const PropTypes = require('prop-types')
 const fract = require('refractor/core.js')
 const mapChildren = require('./mapChildren')
 const addMarkers = require('./addMarkers')
@@ -19,11 +18,13 @@ function Refractor(props) {
 
   const langClassName = `language-${props.language}`
   const codeProps = {className: langClassName}
-  const preProps = {className: [props.className, langClassName].filter(Boolean).join(' ')}
+  const preProps = {
+    className: [props.className || 'refractor', langClassName].filter(Boolean).join(' '),
+  }
 
   if (props.inline) {
     codeProps.style = {display: 'inline'}
-    codeProps.className = props.className
+    codeProps.className = props.className || 'refractor'
   }
 
   let ast = fract.highlight(props.value, props.language)
@@ -35,28 +36,6 @@ function Refractor(props) {
 
   const code = h('code', codeProps, value)
   return props.inline ? code : h('pre', preProps, code)
-}
-
-Refractor.propTypes = {
-  className: PropTypes.string,
-  inline: PropTypes.bool,
-  language: PropTypes.string.isRequired,
-  value: PropTypes.string.isRequired,
-  markers: PropTypes.arrayOf(
-    PropTypes.oneOfType([
-      PropTypes.number,
-      PropTypes.shape({
-        line: PropTypes.number.isRequired,
-        className: PropTypes.string,
-        component: PropTypes.oneOfType([PropTypes.node, PropTypes.func]),
-      }),
-    ])
-  ),
-}
-
-Refractor.defaultProps = {
-  className: 'refractor',
-  inline: false,
 }
 
 Refractor.registerLanguage = (lang) => fract.register(lang)

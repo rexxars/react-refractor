@@ -34,7 +34,6 @@
   },
   "homepage": "https://github.com/rexxars/react-refractor#readme",
   "dependencies": {
-    "prop-types": "^15.8.1",
     "refractor": "^3.6.0",
     "unist-util-filter": "^2.0.2",
     "unist-util-visit-parents": "^3.0.2"
