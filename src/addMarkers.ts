@@ -1,4 +1,4 @@
-import type {RefractorElement, RefractorRoot, Text} from 'refractor'
+import type {Element as RefractorElement, Root as RefractorRoot, Text} from 'hast'
 import {filter} from 'unist-util-filter'
 import {visitParents} from 'unist-util-visit-parents'
 
@@ -17,7 +17,7 @@ export function addMarkers(
     .map((marker) => (typeof marker === 'number' ? {line: marker} : marker))
     .sort((nodeA, nodeB) => nodeA.line - nodeB.line)
 
-  const numbered = lineNumberify(ast.children).nodes
+  const numbered = lineNumberify(ast.children as (RefractorElement | Text)[]).nodes
   if (markers.length === 0 || numbered.length === 0) {
     return {...ast, children: numbered}
   }
@@ -58,7 +58,7 @@ function lineNumberify(ast: (RefractorElement | Text)[], context = {lineNumber: 
       }
 
       if (node.children) {
-        const processed = lineNumberify(node.children, context)
+        const processed = lineNumberify(node.children as (RefractorElement | Text)[], context)
         const firstChild = processed.nodes[0]
         const lastChild = processed.nodes[processed.nodes.length - 1]
         setLineInfo(
@@ -141,21 +141,24 @@ function unwrapLine(markerLine: number, nodes: (RefractorElement | Text)[]) {
     }
 
     // These nodes are on previous lines, but nested within the same structure
-    if (getLineStart(node) < markerLine) {
-      addCopy(headMap, node, ancestors)
+    if (getLineStart(node as RefractorElement | Text) < markerLine) {
+      addCopy(headMap, node as Text, ancestors)
       return
     }
 
     // These nodes are on the target line
-    if (getLineStart(node) === markerLine) {
-      addCopy(lineMap, node, ancestors)
+    if (getLineStart(node as RefractorElement | Text) === markerLine) {
+      addCopy(lineMap, node as Text, ancestors)
       return
     }
 
     // If we have shared ancestors with some of the cloned elements,
     // create another tree of the remaining nodes
-    if (getLineEnd(node) > markerLine && cloned.some((clone) => ancestors.includes(clone as any))) {
-      addCopy(tailMap, node, ancestors)
+    if (
+      getLineEnd(node as RefractorElement | Text) > markerLine &&
+      cloned.some((clone) => ancestors.includes(clone as any))
+    ) {
+      addCopy(tailMap, node as Text, ancestors)
     }
   })
 
@@ -222,13 +225,14 @@ function wrapLines(
   markers: Marker[],
   options: {markers: (Marker | number)[]},
 ): RefractorRoot {
-  const ast = markers.reduce((acc, marker) => unwrapLine(marker.line, acc), treeNodes)
-
-  // Container for the new AST
+  const ast = markers.reduce<(RefractorElement | Text)[]>(
+    (acc, marker) => unwrapLine(marker.line, acc) as (RefractorElement | Text)[],
+    treeNodes.map((node) => node as RefractorElement | Text),
+  )
   const wrapped: (RefractorElement | Text)[] = []
 
   // Note: Markers are already sorted by line number (ascending)
-  let astIndex = 0
+  let astIndex: number = 0
   for (let m = 0; m < markers.length; m++) {
     const marker = markers[m]
 

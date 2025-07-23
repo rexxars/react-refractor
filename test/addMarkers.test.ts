@@ -1,4 +1,4 @@
-import type {RefractorRoot} from 'refractor'
+import {Root as RefractorRoot} from 'hast'
 import {expect, test} from 'vitest'
 import {addMarkers} from '../src/addMarkers'
 import {astFixtures} from './fixtures/ast'

@@ -1,4 +1,4 @@
-import type {RefractorElement, Text} from 'refractor'
+import type {Element as RefractorElement, Text} from 'hast'
 
 export const astFixtures: Array<RefractorElement | Text> = [
   {
