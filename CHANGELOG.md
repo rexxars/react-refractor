@@ -5,6 +5,21 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.0](https://github.com/rexxars/react-refractor/compare/v3.1.1...v4.0.0) (2025-07-23)
+
+### ⚠ BREAKING CHANGES
+
+- Drop support for Node.js version 18 and below.
+- Module now uses refractor v5 under the hood
+
+### Features
+
+- drop support for node 18, upgrade dependencies ([63adba5](https://github.com/rexxars/react-refractor/commit/63adba562e32dab7ae3299cc1bc09a2f2f0aefe2))
+
+### Bug Fixes
+
+- upgrade to refractor 5.0.0 ([2a576d2](https://github.com/rexxars/react-refractor/commit/2a576d2feabf0bbd8b041a579fc4d218318d99b4))
+
 ## [3.1.1](https://github.com/rexxars/react-refractor/compare/v3.1.0...v3.1.1) (2024-04-09)
 
 ### Bug Fixes
