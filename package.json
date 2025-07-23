@@ -51,7 +51,7 @@
   },
   "homepage": "https://github.com/rexxars/react-refractor#readme",
   "dependencies": {
-    "refractor": "^4.8.1",
+    "refractor": "^5.0.0",
     "unist-util-filter": "^5.0.1",
     "unist-util-visit-parents": "^6.0.1"
   },

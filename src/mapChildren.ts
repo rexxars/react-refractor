@@ -1,5 +1,5 @@
 import {createElement, type JSXElementConstructor, type ReactElement} from 'react'
-import type {RefractorElement, Text} from 'refractor'
+import {Element as RefractorElement, Text} from 'hast'
 import type {ReactRefractorMarkerDataWithComponent} from './types.js'
 
 /**
@@ -29,7 +29,8 @@ function mapChild(child: RefractorElement | Text, i: number, depth: number): str
   }
 
   const key = `fract-${depth}-${i}`
-  const children = child.children && child.children.map(mapWithDepth(depth + 1))
+  const children =
+    child.children && (child.children as (RefractorElement | Text)[]).map(mapWithDepth(depth + 1))
 
   if (!isReactRefractorMarkerDataWithComponent(child.data)) {
     return createElement(child.tagName, {key, className}, children)

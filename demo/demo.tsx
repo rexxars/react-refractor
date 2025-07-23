@@ -1,13 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-import javascript from 'refractor/lang/javascript.js'
-import markup from 'refractor/lang/markup.js'
-import css from 'refractor/lang/css.js'
-import clike from 'refractor/lang/clike.js'
-import jsx from 'refractor/lang/jsx.js'
-
 import {Refractor, registerLanguage} from '../src/index.js'
+import javascript from 'refractor/javascript'
+import markup from 'refractor/markup'
+import css from 'refractor/css'
+import clike from 'refractor/clike'
+import jsx from 'refractor/jsx'
 
 registerLanguage(javascript)
 registerLanguage(markup)
