@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/server'
-import haml from 'refractor/lang/haml'
-import js from 'refractor/lang/javascript'
+import haml from 'refractor/haml'
+import js from 'refractor/javascript'
 import {beforeAll, expect, test} from 'vitest'
 
 import {Refractor, RefractorProps, registerLanguage} from '../src'
