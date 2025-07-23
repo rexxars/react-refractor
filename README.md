@@ -2,7 +2,7 @@
 
 Syntax highlighter for React, utilizing VDOM for efficient updates
 
-[![npm version](http://img.shields.io/npm/v/react-refractor.svg?style=flat-square)](http://browsenpm.org/package/react-refractor)
+[![npm version](https://img.shields.io/npm/v/react-refractor.svg?style=flat-square)](https://www.npmjs.com/package/react-refractor)[![npm bundle size](https://img.shields.io/bundlephobia/minzip/react-refractor?style=flat-square)](https://bundlephobia.com/result?p=react-refractor)[![npm weekly downloads](https://img.shields.io/npm/dw/react-refractor.svg?style=flat-square)](https://www.npmjs.com/package/react-refractor)
 
 - Thin wrapper on top of [refractor](https://github.com/wooorm/refractor) (Syntax highlighting using VDOM)
 - refractor uses [Prism](https://github.com/PrismJS/prism) under the hood, thus supports all the same syntaxes
