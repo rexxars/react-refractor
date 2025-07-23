@@ -1,13 +1,16 @@
-import type {Element as RefractorElement, Root as RefractorRoot, Text} from 'hast'
+import type {
+  ElementContent,
+  Node,
+  Parent,
+  Element as RefractorElement,
+  Root as RefractorRoot,
+  RootContent,
+  Text,
+} from 'hast'
 import {filter} from 'unist-util-filter'
 import {visitParents} from 'unist-util-visit-parents'
 
 import type {Marker} from './types.js'
-
-interface Node {
-  type: string
-  data?: object | undefined
-}
 
 export function addMarkers(
   ast: RefractorRoot,
@@ -17,7 +20,7 @@ export function addMarkers(
     .map((marker) => (typeof marker === 'number' ? {line: marker} : marker))
     .sort((nodeA, nodeB) => nodeA.line - nodeB.line)
 
-  const numbered = lineNumberify(ast.children as (RefractorElement | Text)[]).nodes
+  const numbered = lineNumberify(ast.children).nodes
   if (markers.length === 0 || numbered.length === 0) {
     return {...ast, children: numbered}
   }
@@ -25,10 +28,14 @@ export function addMarkers(
   return wrapLines(numbered, markers, options)
 }
 
-function lineNumberify(ast: (RefractorElement | Text)[], context = {lineNumber: 1}) {
-  const resultNodes: (RefractorElement | Text)[] = []
+function lineNumberify(ast: RootContent[], context = {lineNumber: 1}) {
+  const resultNodes: ElementContent[] = []
   return ast.reduce(
     (result, node) => {
+      if (node.type === 'doctype') {
+        return result // Doctypes are not relevant for line numbers
+      }
+
       const lineStart = context.lineNumber
 
       if (node.type === 'text') {
@@ -41,26 +48,22 @@ function lineNumberify(ast: (RefractorElement | Text)[], context = {lineNumber: 
         const lines = node.value.split('\n')
         for (let i = 0; i < lines.length; i++) {
           const lineNum = i === 0 ? context.lineNumber : ++context.lineNumber
-          result.nodes.push(
-            setLineInfo(
-              {
-                type: 'text',
-                value: i === lines.length - 1 ? lines[i] : `${lines[i]}\n`,
-              },
-              lineNum,
-              lineNum,
-            ),
-          )
+          const text: Text = {
+            type: 'text',
+            value: i === lines.length - 1 ? lines[i] : `${lines[i]}\n`,
+          }
+          const withLineInfo = setLineInfo(text, lineNum, lineNum)
+          result.nodes.push(withLineInfo)
         }
 
         result.lineNumber = context.lineNumber
         return result
       }
 
-      if (node.children) {
-        const processed = lineNumberify(node.children as (RefractorElement | Text)[], context)
-        const firstChild = processed.nodes[0]
-        const lastChild = processed.nodes[processed.nodes.length - 1]
+      if (node.type === 'element' && node.children) {
+        const processed = lineNumberify(node.children, context)
+        const firstChild = processed.nodes.find(isElementOrText)
+        const lastChild = processed.nodes.findLast(isElementOrText)
         setLineInfo(
           node,
           firstChild ? getLineStart(firstChild, lineStart) : lineStart,
@@ -79,17 +82,25 @@ function lineNumberify(ast: (RefractorElement | Text)[], context = {lineNumber: 
   )
 }
 
-function getLineStart(node: RefractorElement | Text, fallbackLineStart = 1) {
+function isElementOrText(node: RootContent | Node): node is RefractorElement | Text {
+  return node.type === 'element' || node.type === 'text'
+}
+
+function getLineStart(node: Node, fallbackLineStart = 1) {
   return node.data && typeof node.data.lineStart === 'number'
     ? node.data.lineStart
     : fallbackLineStart
 }
 
-function getLineEnd(node: RefractorElement | Text, fallbackLineEnd = 1) {
+function getLineEnd(node: Node, fallbackLineEnd = 1) {
   return node.data && typeof node.data.lineEnd === 'number' ? node.data.lineEnd : fallbackLineEnd
 }
 
-function setLineInfo(node: RefractorElement | Text, lineStart: number, lineEnd: number) {
+function setLineInfo<T extends RefractorElement | Text | Parent>(
+  node: T,
+  lineStart: number,
+  lineEnd: number,
+): T {
   if (!node.data) {
     node.data = {}
   }
@@ -99,7 +110,7 @@ function setLineInfo(node: RefractorElement | Text, lineStart: number, lineEnd: 
   return node
 }
 
-function unwrapLine(markerLine: number, nodes: (RefractorElement | Text)[]) {
+function unwrapLine(markerLine: number, nodes: RootContent[]) {
   const tree: RefractorRoot = {type: 'root', children: nodes}
 
   const headMap = new WeakMap()
@@ -110,7 +121,7 @@ function unwrapLine(markerLine: number, nodes: (RefractorElement | Text)[]) {
   function addCopy(
     map: WeakMap<object, any>,
     node: Text,
-    ancestors: (RefractorRoot | RefractorElement)[],
+    ancestors: Array<RefractorRoot | RefractorElement>,
   ) {
     cloned.push(node)
 
@@ -127,6 +138,10 @@ function unwrapLine(markerLine: number, nodes: (RefractorElement | Text)[]) {
     let i = ancestors.length
     while (i--) {
       const ancestor = map.get(ancestors[i])
+      if (!ancestor || !('children' in ancestor)) {
+        continue
+      }
+
       const child = ancestors[i + 1]
       const leaf = map.get(child) || node
       if (ancestor.children.indexOf(leaf) === -1) {
@@ -136,42 +151,39 @@ function unwrapLine(markerLine: number, nodes: (RefractorElement | Text)[]) {
   }
 
   visitParents(tree, (node, ancestors) => {
-    if ('children' in node) {
+    if ('children' in node || !isElementOrText(node)) {
       return
     }
 
     // These nodes are on previous lines, but nested within the same structure
-    if (getLineStart(node as RefractorElement | Text) < markerLine) {
-      addCopy(headMap, node as Text, ancestors)
+    if (getLineStart(node) < markerLine) {
+      addCopy(headMap, node, ancestors)
       return
     }
 
     // These nodes are on the target line
-    if (getLineStart(node as RefractorElement | Text) === markerLine) {
-      addCopy(lineMap, node as Text, ancestors)
+    if (getLineStart(node) === markerLine) {
+      addCopy(lineMap, node, ancestors)
       return
     }
 
     // If we have shared ancestors with some of the cloned elements,
     // create another tree of the remaining nodes
-    if (
-      getLineEnd(node as RefractorElement | Text) > markerLine &&
-      cloned.some((clone) => ancestors.includes(clone as any))
-    ) {
-      addCopy(tailMap, node as Text, ancestors)
+    if (getLineEnd(node) > markerLine && cloned.some((clone) => ancestors.includes(clone as any))) {
+      addCopy(tailMap, node, ancestors)
     }
   })
 
   // Get the remaining nodes - the ones who were not part of the same tree
-  const filtered = filter(tree, (node) => cloned.indexOf(node) === -1)
-  const getChildren = (map: WeakMap<object, any>): (RefractorElement | Text)[] => {
+  const filtered = filter(tree, (node) => cloned.indexOf(node as any) === -1)
+  const getChildren = (map: WeakMap<Node, Parent>) => {
     const rootNode = map.get(tree)
     if (!rootNode) {
       return []
     }
 
     visitParents(rootNode, (leaf, ancestors) => {
-      if (leaf.children) {
+      if (isElementOrText(leaf) && 'children' in leaf) {
         setLineInfo(leaf, 0, 0)
         return
       }
@@ -199,7 +211,7 @@ function unwrapLine(markerLine: number, nodes: (RefractorElement | Text)[]) {
 }
 
 function wrapBatch(
-  children: (RefractorElement | Text)[],
+  children: Array<ElementContent>,
   marker: Marker,
   options: {markers: (Marker | number)[]},
 ): RefractorElement {
@@ -221,15 +233,15 @@ function wrapBatch(
 }
 
 function wrapLines(
-  treeNodes: (RefractorElement | Text)[],
+  treeNodes: RootContent[],
   markers: Marker[],
   options: {markers: (Marker | number)[]},
 ): RefractorRoot {
-  const ast = markers.reduce<(RefractorElement | Text)[]>(
-    (acc, marker) => unwrapLine(marker.line, acc) as (RefractorElement | Text)[],
-    treeNodes.map((node) => node as RefractorElement | Text),
+  const ast: Array<RootContent> = markers.reduce(
+    (acc, marker) => unwrapLine(marker.line, acc),
+    treeNodes,
   )
-  const wrapped: (RefractorElement | Text)[] = []
+  const wrapped: Array<RootContent> = []
 
   // Note: Markers are already sorted by line number (ascending)
   let astIndex: number = 0
@@ -242,13 +254,15 @@ function wrapLines(
     }
 
     // Now proceed to find all _contiguous_ nodes on the same line
-    const batch = []
+    const batch: Array<ElementContent> = []
     for (
       let node = ast[astIndex];
       node && getLineEnd(node) === marker.line;
       node = ast[++astIndex]
     ) {
-      batch.push(node)
+      if (node.type !== 'doctype') {
+        batch.push(node)
+      }
     }
 
     // Now add that batch, if we have anything

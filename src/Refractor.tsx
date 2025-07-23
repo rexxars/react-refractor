@@ -1,7 +1,6 @@
 import type {HTMLAttributes} from 'react'
 import type {Syntax} from 'refractor'
 import {refractor as fract} from 'refractor/core'
-import {Element as RefractorElement, Text} from 'hast'
 import {addMarkers} from './addMarkers.js'
 import {mapWithDepth} from './mapChildren.js'
 import type {RefractorProps} from './types.js'
@@ -32,10 +31,7 @@ export function Refractor(props: RefractorProps) {
     ast = addMarkers(ast, {markers: props.markers})
   }
 
-  const value =
-    ast.children.length === 0
-      ? props.value
-      : (ast.children as (RefractorElement | Text)[]).map(mapWithDepth(0))
+  const value = ast.children.length === 0 ? props.value : ast.children.map(mapWithDepth(0))
 
   const code = <code {...codeProps}>{value}</code>
   return props.inline ? code : <pre className={preClass}>{code}</pre>

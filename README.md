@@ -24,8 +24,8 @@ npm install --save react-refractor
 import {Refractor, registerLanguage} from 'react-refractor'
 
 // Load any languages you want to use from `refractor`
-import js from 'refractor/lang/javascript.js'
-import php from 'refractor/lang/php.js'
+import js from 'refractor/javascript'
+import php from 'refractor/php'
 
 // Then register them
 registerLanguage(js)
@@ -40,7 +40,7 @@ ReactDOM.render(
 You'll need to register the languages you want to use - I've intentionally left all languages out of the default bundle in order to reduce the bundle size out of the box. Load and register them from [refractor](https://unpkg.com/refractor/lang/) using something like this:
 
 ```ts
-import docker from 'refractor/lang/docker'
+import docker from 'refractor/docker'
 
 registerLanguage(docker)
 ```
